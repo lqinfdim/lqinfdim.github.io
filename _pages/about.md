@@ -58,11 +58,10 @@ Any collaboration is welcomed, feel free to drop me an e-mail.
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 
-- Li Q. et.al. Should We Really Edit Language Models? On the Comprehensive Evaluation of Edited Language Models. Submitted to the Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS2024, CCF-A).
-- Li, Q. et al. Can We Continually Edit Language Models? On the Knowledge Attenuation in Sequential Model Editing. Long paper of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL2024, CCF-A).
-- Li, Q. et.al. Parameter-Efficient Tuning on Selective Parameters for Pre-trained Models. Long Paper of the IEEE International Conference on Multimedia & Expo (ICME24, CCF-B). 
-- Li, Q. et.al. Harnessing the Power of Pre-trained Vision-Language Models for Efficient Medical Report Generation. Long Paper of 32nd ACM International Conference on Information and Knowledge Management (CIKM23 Oral, CCF-B). 
-
+- Li Q. et.al. Should We Really Edit Language Models? On the Comprehensive Evaluation of Edited Language Models. Main Track Paper of the Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS 2024, CCF-A).
+- Li, Q. et al. Can We Continually Edit Language Models? On the Knowledge Attenuation in Sequential Model Editing. Long paper of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024, CCF-A).
+- Li, Q. et.al. Parameter-Efficient Tuning on Selective Parameters for Pre-trained Models. Long Paper of the IEEE International Conference on Multimedia & Expo (ICME 2024, CCF-B). 
+- Li, Q. et.al. Harnessing the Power of Pre-trained Vision-Language Models for Efficient Medical Report Generation. Long Paper of 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023 Oral, CCF-B). 
 
 
 
