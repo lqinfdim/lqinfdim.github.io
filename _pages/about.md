@@ -33,7 +33,7 @@ Any collaboration is welcomed, feel free to drop me an e-mail.
 - *2023.08*: &nbsp;🎉🎉 One paper is accepted by CIKM 2023.
 
 # 💻 Internships
-- *2023.09 - current*, Research Intern, Tsinghua HKUST(GZ), China.
+- *2023.09 - current*, Research Intern, HKUST(GZ), China.
 - *2022.10 - 2023.01*, Research Intern, Tsinghua University, China.
 
 # 📖 Educations
