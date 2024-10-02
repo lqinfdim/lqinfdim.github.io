@@ -30,7 +30,7 @@ Any collaboration is welcomed, feel free to contact me.
 - *2024.09*: &nbsp;🎉🎉 One paper is accepted by NeurIPS 2024. 
 - *2024.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2024.
 
-# 💻 Working Experience
+# 💻 Experience
 - *2023.09 - current*, Research Intern, HKUST(GZ), China.
 - *2022.10 - 2023.01*, Research Intern, Tsinghua University, China.
 
