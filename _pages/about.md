@@ -27,8 +27,10 @@ Any collaboration is welcomed, feel free to drop me an e-mail.
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 One paper is accepted by NeurIPS 2024. 
-- *2022.02*: &nbsp;🎉🎉 One paper is accepted by ACL 2024.
+- *2024.09*: &nbsp;🎉🎉 One paper is accepted by NeurIPS 2024. 
+- *2024.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2024.
+- *2024.03*: &nbsp;🎉🎉 One paper is accepted by ICME 2024.
+- *2023.08*: &nbsp;🎉🎉 One paper is accepted by CIKM 2023.
 
 # 💻 Internships
 - *2023.09 - current*, Research Intern, Tsinghua HKUST(GZ), China.
@@ -36,7 +38,7 @@ Any collaboration is welcomed, feel free to drop me an e-mail.
 
 # 📖 Educations
 - *2019.08 - 2022.08*, Tsinghua University, Master of Engineering. 
-- *2015.09 - 2019.06*, Lanzhou University, Bachelor of Engineering.
+- *2014.09 - 2018.06*, Lanzhou University, Bachelor of Engineering.
 
 # 📝 Publications 
 
