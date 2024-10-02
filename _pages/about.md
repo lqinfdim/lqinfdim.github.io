@@ -18,21 +18,19 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 Hi, I’m Qi Li. I’m now a Research Intern at The Hong Kong University of Science and Technology (Guangzhou). Previously, I obtained my Master's degree of Engineering in Biomedical Engineering from Tsinghua University in 2022.
-I got my Bachelor's degree from Lanzhou University.
+Before that, I got my Bachelor's degree in Engineering from Lanzhou University.
 
 My current research interests are efficient large language models (LLM), interpretability and working mechanisms of LLM,  and deep learning theory. 
 Any collaboration is welcomed, feel free to drop me an e-mail.
 
-<!-- My research interests include efficient large language models,  and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
+<!-- My research interests include efficient large language models  and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
 # 🔥 News
 - *2024.09*: &nbsp;🎉🎉 One paper is accepted by NeurIPS 2024. 
 - *2024.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2024.
-- *2024.03*: &nbsp;🎉🎉 One paper is accepted by ICME 2024.
-- *2023.08*: &nbsp;🎉🎉 One paper is accepted by CIKM 2023.
 
-# 💻 Internships
+# 💻 Internship and Working Experience
 - *2023.09 - current*, Research Intern, HKUST(GZ), China.
 - *2022.10 - 2023.01*, Research Intern, Tsinghua University, China.
 
