@@ -61,18 +61,16 @@ Any collaboration is welcomed, feel free to contact me.
 - Li, Q. et.al. Parameter-Efficient Tuning on Selective Parameters for Pre-trained Models. Long Paper of the IEEE International Conference on Multimedia & Expo 24 (ICME 2024, CCF-B). 
 - Li, Q. et.al. Harnessing the Power of Pre-trained Vision-Language Models for Efficient Medical Report Generation. Long Paper of 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023 Oral, CCF-B). 
 
+# 🎖 Honors and Awards
+
+- *2015.12*, *2017.12* First Class Scholarship for Outstanding Students, Lanzhou University.    
+- *2015.12*, *2016.12*, *2017.12*, Outstanding Student at Lanzhou University.
+- *2020.12*  Scholarship for Excellent Students, Tsinghua Shenzhen International Graduate School. 
 
 
 # 👔 Academic Services
 
 * Reviewer: ICLR'25, EMNLP'23,24, ICASSP'23,24, ECAI'23,24, ICME'24
-
-
-
-
-<!-- # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 
 <!--
