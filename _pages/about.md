@@ -31,7 +31,7 @@ Any collaboration is welcomed, feel free to contact me.
 - *2024.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2024.
 
 # 💻 Experience
-- *2023.09 - current*, Research Intern, HKUST(GZ), China.
+- *2023.09 - Current*, Research Intern, HKUST(GZ), China.
 - *2022.10 - 2023.01*, Research Intern, Tsinghua University, China.
 
 # 📖 Educations
@@ -58,7 +58,7 @@ Any collaboration is welcomed, feel free to contact me.
 
 - Li Q. et.al. Should We Really Edit Language Models? On the Comprehensive Evaluation of Edited Language Models. Main Track Paper of the Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS 2024, CCF-A).
 - Li, Q. et al. Can We Continually Edit Language Models? On the Knowledge Attenuation in Sequential Model Editing. Long paper of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024, CCF-A).
-- Li, Q. et.al. Parameter-Efficient Tuning on Selective Parameters for Pre-trained Models. Long Paper of the IEEE International Conference on Multimedia & Expo (ICME 2024, CCF-B). 
+- Li, Q. et.al. Parameter-Efficient Tuning on Selective Parameters for Pre-trained Models. Long Paper of the IEEE International Conference on Multimedia & Expo 24 (ICME 2024, CCF-B). 
 - Li, Q. et.al. Harnessing the Power of Pre-trained Vision-Language Models for Efficient Medical Report Generation. Long Paper of 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023 Oral, CCF-B). 
 
 
