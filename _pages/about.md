@@ -63,9 +63,9 @@ Any collaboration is welcomed, feel free to contact me.
 
 # 🎖 Honors and Awards
 
-- *2015.12*, *2017.12* First Class Scholarship for Outstanding Students, Lanzhou University.    
+- *2015.12*, *2017.12*, First Class Scholarship for Outstanding Students, Lanzhou University.    
 - *2015.12*, *2016.12*, *2017.12*, Outstanding Student at Lanzhou University.
-- *2020.12*  Scholarship for Excellent Students, Tsinghua Shenzhen International Graduate School. 
+- *2020.12*, Scholarship for Excellent Students, Tsinghua Shenzhen International Graduate School. 
 
 
 # 👔 Academic Services
