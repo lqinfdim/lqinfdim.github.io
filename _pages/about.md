@@ -20,7 +20,7 @@ redirect_from:
 Hi, I’m Qi Li. I’m now a Research Intern at The Hong Kong University of Science and Technology (Guangzhou). Previously, I obtained my Master's degree of Engineering in Biomedical Engineering from Tsinghua University in 2022.
 Before that, I got my Bachelor's degree in Engineering from Lanzhou University.
 
-My current research interests are efficient large language models (LLM), interpretability and working mechanisms of LLM,  and deep learning theory. 
+My current research interests are efficient large language models (LLM), interpretability and working mechanisms of LLM,  post-training of LLM, and deep learning theory. 
 Any collaboration is welcomed, feel free to contact me.
 
 <!-- My research interests include efficient large language models  and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
@@ -73,7 +73,7 @@ Any collaboration is welcomed, feel free to contact me.
 
 # 👔 Academic Services
 
-* Reviewer: ICLR'25, EMNLP'23,24, ICASSP'23,24, ECAI'23,24, ICME'24
+* Reviewer: ICLR'25, EMNLP'23,24, ICASSP'23,24,25, ECAI'23,24, ICME'24
 
 
 <!--
