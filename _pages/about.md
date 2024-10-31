@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I’m Qi Li. I’m now a Research Intern at The Hong Kong University of Science and Technology (Guangzhou). Previously, I obtained my Master's degree of Engineering in Biomedical Engineering from Tsinghua University in 2022.
+Hi, I’m Qi Li. I’m a in coming PhD student of Tsinghua Uviversity at 2025 fall. I current sever as research intern at The Hong Kong University of Science and Technology (Guangzhou). Previously, I obtained my Master's degree of Engineering in Biomedical Engineering from Tsinghua University in 2022.
 Before that, I got my Bachelor's degree in Engineering from Lanzhou University.
 
 My current research interests are efficient large language models (LLM), interpretability and working mechanisms of LLM,  post-training of LLM, and deep learning theory. 
@@ -25,18 +25,23 @@ Any collaboration is welcomed, feel free to contact me.
 
 <!-- My research interests include efficient large language models  and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
-
 # 🔥 News
+ 
 - *2024.09*: &nbsp;🎉🎉 One paper is accepted by NeurIPS 2024. 
 - *2024.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2024.
 
+
 # 💻 Experience
+
 - *2023.09 - Current*, Research Intern, HKUST(GZ), China.
 - *2022.10 - 2023.01*, Research Intern, Tsinghua University, China.
 
 # 📖 Educations
+
+- *2025.08 - 2028.08*, Tsinghua University, Doctor of Engineering (Expected).
 - *2019.08 - 2022.08*, Tsinghua University, Master of Engineering. 
 - *2014.09 - 2018.06*, Lanzhou University, Bachelor of Engineering.
+
 
 # 📝 Publications 
 
