@@ -17,8 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I’m Qi Li. I’m a in coming PhD student of Tsinghua Uviversity at 2025 fall. I current sever as research intern at The Hong Kong University of Science and Technology (Guangzhou). Previously, I obtained my Master's degree of Engineering in Biomedical Engineering from Tsinghua University in 2022.
-Before that, I got my Bachelor's degree in Engineering from Lanzhou University.
+Hi, I’m Qi Li. I’m a in coming PhD student of Tsinghua University at 2025 fall. I currently sever as research intern at The Hong Kong University of Science and Technology (Guangzhou). Previously, I obtained my master's degree of engineering from Tsinghua University in 2022. Before that, I got my bachelor's degree in engineering from Lanzhou University.
 
 My current research interests are efficient large language models (LLM), interpretability and working mechanisms of LLM,  post-training of LLM, and deep learning theory. 
 Any collaboration is welcomed, feel free to contact me.
