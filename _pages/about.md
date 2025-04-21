@@ -17,15 +17,16 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I’m Qi Li. I’m a CS PhD student of Tsinghua University. I also sever as research intern at HKUST-GZ. Previously, I obtained my master's degree of engineering from Tsinghua University in 2022. Before that, I got my bachelor's degree in engineering from Lanzhou University.
+Hi, there. I’m Qi Li, a CS PhD student of Tsinghua University. I also sever as research intern at HKUST-GZ. Previously, I obtained my master's degree of engineering from Tsinghua University in 2022. Before that, I got my bachelor's degree in engineering from Lanzhou University.
 
-My current research interests are efficient LLM, trustworthy and interpretability of LLM, machine learning system for LLM. 
-Any collaboration is welcomed, feel free to contact me.
+My current research interests are efficient LLM, machine learning system for LLM, understanding deep learning (espically LLM) from both theoretical and empirical view. 
+Any collaboration is welcomed, feel free to drop me an email.
 
 <!-- My research interests include efficient large language models  and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 🔥 News
- 
+
+- *2025.04*: &nbsp;🎉🎉 One paper is accepted by ISIT 2025.  
 - *2024.09*: &nbsp;🎉🎉 One paper is accepted by NeurIPS 2024. 
 - *2024.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2024.
 
@@ -37,12 +38,12 @@ Any collaboration is welcomed, feel free to contact me.
 
 # 📖 Educations
 
-- *2025.08 - 2028.08*, Tsinghua University, Doctor of Engineering (Expected).
+- *2025.08 - current*, Tsinghua University, PhD Student.
 - *2019.08 - 2022.08*, Tsinghua University, Master of Engineering. 
 - *2014.09 - 2018.06*, Lanzhou University, Bachelor of Engineering.
 
 
-# 📝 Publications 
+# 📝 Selected Publications 
 
 <!--
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
@@ -62,7 +63,6 @@ Any collaboration is welcomed, feel free to contact me.
 
 - Li Q. et.al. Should We Really Edit Language Models? On the Comprehensive Evaluation of Edited Language Models. Main Track Paper of the Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS 2024, CCF-A).
 - Li, Q. et al. Can We Continually Edit Language Models? On the Knowledge Attenuation in Sequential Model Editing. Long paper of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024, CCF-A).
-- Li, Q. et.al. Parameter-Efficient Tuning on Selective Parameters for Pre-trained Models. Long Paper of the IEEE International Conference on Multimedia & Expo 24 (ICME 2024, CCF-B). 
 - Li, Q. et.al. Harnessing the Power of Pre-trained Vision-Language Models for Efficient Medical Report Generation. Long Paper of 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023 Oral, CCF-B). 
 
 # 🎖 Honors and Awards
@@ -77,7 +77,7 @@ Any collaboration is welcomed, feel free to contact me.
 
 # 👔 Academic Services
 
-* Reviewer: ACL'25, ICML'25, ICLR'25, EMNLP'23,24, ICASSP'23,24,25, ECAI'23,24, ICME'24,25
+* Reviewer: ACL'25, ICML'25, ICLR'25, NeurIPS'25, EMNLP'23,24,25, ICASSP'23,24,25, ECAI'23,24, ICME'24,25
 
 
 
