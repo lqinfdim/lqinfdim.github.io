@@ -31,16 +31,20 @@ Any collaboration is welcomed, feel free to drop me an email.
 - *2024.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2024.
 
 
+<!--
 # 💻 Experience
 
 - *2023.09 - Current*, Research Intern, HKUST(GZ), China.
-- *2022.10 - 2023.01*, Research Intern, Tsinghua University, China.
+- *2022.10 - 2023.01*, Research Intern, Tsinghua University, China. -->
+
 
 # 📖 Educations
 
 - *2025.08 - current*, Tsinghua University, PhD Student.
 - *2019.08 - 2022.08*, Tsinghua University, Master of Engineering. 
 - *2014.09 - 2018.06*, Lanzhou University, Bachelor of Engineering.
+
+<!-- # 💻 Preprint Papers  -->
 
 
 # 📝 Selected Publications 
