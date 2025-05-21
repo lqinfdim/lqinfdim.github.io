@@ -25,7 +25,7 @@ Any collaboration is welcomed, feel free to drop me an email.
 <!-- My research interests include efficient large language models  and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 🔥 News
-
+- *2025.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2025. 
 - *2025.04*: &nbsp;🎉🎉 One paper is accepted by ISIT 2025.  
 - *2024.09*: &nbsp;🎉🎉 One paper is accepted by NeurIPS 2024. 
 - *2024.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2024.
@@ -61,6 +61,8 @@ Any collaboration is welcomed, feel free to drop me an email.
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 
+
+- Li Q. et.al. AceEdit: Advancing Continuous Knowledge Editing For Large Language Models. Long paper of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025, CCF-A).
 - Li Q. et.al. Should We Really Edit Language Models? On the Comprehensive Evaluation of Edited Language Models. Main Track Paper of the Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS 2024, CCF-A).
 - Li, Q. et al. Can We Continually Edit Language Models? On the Knowledge Attenuation in Sequential Model Editing. Long paper of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024, CCF-A).
 - Li, Q. et.al. Harnessing the Power of Pre-trained Vision-Language Models for Efficient Medical Report Generation. Long Paper of 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023 Oral, CCF-B). 
