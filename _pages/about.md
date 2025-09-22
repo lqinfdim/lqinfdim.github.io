@@ -68,6 +68,8 @@ Any collaboration is welcomed, feel free to drop me an email.
 
 
 - Li Q. et.al. AdaEdit: Advancing Continuous Knowledge Editing For Large Language Models. Long paper of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025, CCF-A).
+- Qingyue Zhang, Haohao Fu, Guanbo Huang, Yaoyuan Liang, Chang Chu, Tianren Peng, Yanru Wu, Qi Li, Yang Li, Shao-Lun Huang. A High-Dimensional Statistical Method for Optimizing Transfer Quantities in Multi-Source Transfer Learning. Main Track Paper of the Thirty-nith Annual Conference on Neural Information Processing Systems (NeurIPS 2025, CCF-A).
+- T. Peng, Q. Li, S.-L. Huang, "On the Optimal Second-Order Convergence Rate of Minimax Estimation Under Weighted MSE," IEEE International Symposium on Information Theory, Jun., 2025. (ISIT 2025 Oral, Tsinghua B)
 - Li Q. et.al. Should We Really Edit Language Models? On the Comprehensive Evaluation of Edited Language Models. Main Track Paper of the Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS 2024, CCF-A).
 - Li, Q. et al. Can We Continually Edit Language Models? On the Knowledge Attenuation in Sequential Model Editing. Long paper of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024, CCF-A).
 - Li, Q. et.al. Harnessing the Power of Pre-trained Vision-Language Models for Efficient Medical Report Generation. Long Paper of 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023 Oral, CCF-B). 
