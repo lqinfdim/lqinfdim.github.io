@@ -45,7 +45,7 @@ Any collaboration is welcomed, feel free to drop me an email.
 - *2019.08 - 2022.08*, Tsinghua University, Master of Engineering. 
 - *2014.09 - 2018.06*, Lanzhou University, Bachelor of Engineering.
 
-<!-- # 💻 Preprint Papers  -->
+<!-- # 📕 Preprint Papers  -->
 
 
 # 📝 Selected Publications 
@@ -91,6 +91,7 @@ Any collaboration is welcomed, feel free to drop me an email.
 
 
 <!--
+💻 
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
