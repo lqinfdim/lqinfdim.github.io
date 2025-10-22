@@ -47,7 +47,7 @@ Any collaboration is welcomed, feel free to drop me an email.
 
 # 📕 Preprint Papers 
 
-- Qi Li, Junpan Wu, Xiang Liu, Yuxin Wang, Zeyu Li, Zhenheng Tang, Yuhan Chen, Shaohuai Shi, Xiaowen Chu. Reasoning Language Model Inference Serving Unveiled: An Empirical Study. Arxiv online, Oct., 2025. [Link](https://arxiv.org/abs/2510.18672)
+- Qi Li, Junpan Wu, Xiang Liu, Yuxin Wang, Zeyu Li, Zhenheng Tang, Yuhan Chen, Shaohuai Shi, Xiaowen Chu. Reasoning Language Model Inference Serving Unveiled: An Empirical Study. Arxiv online, Oct., 2025. [Arxiv Link](https://arxiv.org/abs/2510.18672).
 
 
 # 📝 Selected Publications 
@@ -66,7 +66,6 @@ Any collaboration is welcomed, feel free to drop me an email.
 </div>
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
-
 
 
 - Li Q. et.al. AdaEdit: Advancing Continuous Knowledge Editing For Large Language Models. Long paper of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025, CCF-A).
