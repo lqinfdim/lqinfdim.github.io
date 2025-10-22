@@ -45,7 +45,9 @@ Any collaboration is welcomed, feel free to drop me an email.
 - *2019.08 - 2022.08*, Tsinghua University, Master of Engineering. 
 - *2014.09 - 2018.06*, Lanzhou University, Bachelor of Engineering.
 
-<!-- # 📕 Preprint Papers  -->
+# 📕 Preprint Papers 
+
+- Qi Li, Junpan Wu, Xiang Liu, Yuxin Wang, Zeyu Li, Zhenheng Tang, Yuhan Chen, Shaohuai Shi, Xiaowen Chu. Reasoning Language Model Inference Serving Unveiled: An Empirical Study. Arxiv online, Oct., 2025. [Link](https://arxiv.org/abs/2510.18672)
 
 
 # 📝 Selected Publications 
