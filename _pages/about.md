@@ -25,6 +25,7 @@ Any collaboration is welcomed, feel free to drop me an email.
 <!-- My research interests include efficient large language models  and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 🔥 News
+- *2025.10*: Our manuscript "Reasoning Language Model Inference Serving Unveiled: An Empirical Study" is available on ArXiv and HuggingFace.
 - *2025.09*: &nbsp;🎉🎉 One paper is accepted by NeurIPS 2025. 
 - *2025.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2025. 
 - *2025.04*: &nbsp;🎉🎉 One paper is accepted by ISIT 2025.  
@@ -32,11 +33,7 @@ Any collaboration is welcomed, feel free to drop me an email.
 - *2024.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2024.
 
 
-<!--
-# 💻 Experience
 
-- *2023.09 - Current*, Research Intern, HKUST(GZ), China.
-- *2022.10 - 2023.01*, Research Intern, Tsinghua University, China. -->
 
 
 # 📖 Educations
@@ -45,9 +42,10 @@ Any collaboration is welcomed, feel free to drop me an email.
 - *2019.08 - 2022.08*, Tsinghua University, Master of Engineering. 
 - *2014.09 - 2018.06*, Lanzhou University, Bachelor of Engineering.
 
-# 📕 Preprint Papers 
+# 💻 Preprint Papers 
 
-- Qi Li, Junpan Wu, Xiang Liu, Yuxin Wang, Zeyu Li, Zhenheng Tang, Yuhan Chen, Shaohuai Shi, Xiaowen Chu. Reasoning Language Model Inference Serving Unveiled: An Empirical Study. Arxiv online, Oct., 2025. [Arxiv Link](https://arxiv.org/abs/2510.18672).
+- Qi Li, Junpan Wu, Xiang Liu, Yuxin Wang, Zeyu Li, Zhenheng Tang, Yuhan Chen, Shaohuai Shi, Xiaowen Chu. Reasoning Language Model Inference Serving Unveiled: An Empirical Study. Online, Oct, 2025.
+  [ArXiv](https://arxiv.org/abs/2510.18672) [HuggingFace](https://huggingface.co/papers/2510.18672).
 
 
 # 📝 Selected Publications 
@@ -89,10 +87,14 @@ Any collaboration is welcomed, feel free to drop me an email.
 
 * Reviewer: ACL'25, ICML'25, ICLR'25,26, NeurIPS'24,25, CVPR'26, EMNLP'23,24,25, ICASSP'23,24,25, ECAI'23,24, ICME'24,25
 
+<!--
+# 💻 Experience
 
+- *2023.09 - Current*, Research Intern, HKUST(GZ), China.
+- *2022.10 - 2023.01*, Research Intern, Tsinghua University, China. -->
 
 <!--
-💻 
+💻 📕
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
