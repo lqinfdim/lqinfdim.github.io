@@ -85,7 +85,7 @@ Any collaboration is welcomed, feel free to drop me an email.
 
 # 👔 Academic Services
 
-* Reviewer: ACL'25, ICML'25, ICLR'25,26, NeurIPS'24,25, CVPR'26, EMNLP'23,24,25, ICASSP'23,24,25, ECAI'23,24, ICME'24,25
+* Reviewer: ACL ARR'25, ICML'25,26 ICLR'25,26, NeurIPS'24,25, CVPR'26, EMNLP'23,24,25, ICASSP'23,24,25,26, ECAI'23,24, ICME'24,25,26
 
 <!--
 # 💻 Experience
