@@ -17,10 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, there. I’m Qi Li, a CS PhD student of Tsinghua University. I also sever as research intern at HKUST-GZ. Previously, I obtained my master's degree of engineering from Tsinghua University in 2022. Before that, I got my bachelor's degree in engineering from Lanzhou University.
+Hello there! I'm Qi Li, a CS PhD student at Tsinghua University, where I also serve as a research intern at HKUST-GZ. I received my Master's degree in Engineering from Tsing University, and my Bachelor's degree in Engineering from Lanzhou University (LZU).
 
-My current research interests are efficient LLM, machine learning system for LLM, understanding deep learning (espically LLM) from both theoretical and empirical view. 
-Any collaboration is welcomed, feel free to drop me an email.
+My research interests focus on:
+- Efficient algorithm for LLM: PEFT, Knowledge Editing
+- Post-training for LLM
+- Machine learning systems for LLM
+- Understanding LLM from both theoretical and empirical perspectives
+I'm always open to collaboration and discussion. Feel free to reach out via email!
 
 <!-- My research interests include efficient large language models  and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
@@ -40,7 +44,7 @@ Any collaboration is welcomed, feel free to drop me an email.
 
 # 📖 Educations
 
-- *2025.08 - current*, Tsinghua University, PhD Student.
+- *2025.08 - Current*, Tsinghua University, PhD Student.
 - *2019.08 - 2022.08*, Tsinghua University, Master of Engineering. 
 - *2014.09 - 2018.06*, Lanzhou University, Bachelor of Engineering.
 
