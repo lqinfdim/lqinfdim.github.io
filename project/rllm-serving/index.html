@@ -9,7 +9,7 @@
   <title>Reasoning Language Model Inference Serving Unveiled: An Empirical Study</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
-  <link rel="icon" type="image/png" href="figures/logo.png">
+  <!-- <link rel="icon" type="image/png" href="figures/logo.png"> -->
 
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
@@ -73,7 +73,7 @@
           </h2>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://lqinfdim.github.io/">Qi Li</a><sup style="color:#0e419c;">1,2*</sup>,</span>
+              <a href="https://lqinfdim.github.io/">Qi Li</a><sup style="color:#0e419c;">1,</sup>,2*</span>
             <span class="author-block">
               <a href="/">Junpan Wu</a><sup style="color:#6fbf73">4*</sup>,</span>
             <span class="author-block">
@@ -83,34 +83,28 @@
               <a href="/">Yuxin Wang</a><sup style="color:#ed4b82">3</sup>,
             </span>
             <span class="author-block">
-              <a href="/">Zeyu Li</a><sup style="color:#ed4b82">3</sup>,
+              <a href="/">Zeyu Li</a><sup style="color:#ed4b82">2</sup>,
             </span>
             <span class="author-block">
-              <a href="/">Yuhan Chen</a><sup style="color:#ed4b82">3</sup>,
+              <a href="/">Yuhan Chen</a><sup style="color:#ed4b82">2</sup>,
             </span>
             <span class="author-block">
-              <a href="/">Shaohuai Shi</a><sup style="color:#ed4b82">3</sup>,
+              <a href="/">Shaohuai Shi</a><sup style="color:#ed4b82">5</sup>,
             </span>
-
             <span class="author-block">
-              <a href="/">Shaohuai Shi</a><sup style="color:#ed4b82">3</sup>,
+              <a href="/">Zhenheng Tang</a><sup style="color:#0e419c">6, </sup><sup style="color:#6fbf73">&dagger</sup>
             </span>
-            
             <span class="author-block">
-              <a href="/">Zhenheng Tang</a><sup style="color:#0e419c">3, &dagger</sup><sup style="color:#6fbf73">2</sup>
-            </span>
-
-            <span class="author-block">
-              <a href="/">Xiaowen Chu</a><sup style="color:#0e419c">2, &dagger</sup><sup style="color:#6fbf73">2</sup>
+              <a href="/">Xiaowen Chu</a><sup style="color:#0e419c">2, </sup><sup style="color:#6fbf73">&dagger</sup>
             </span>
             
           </div>
 
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup style="color:#0e419c">1</sup>Tsinghua University,</span>
-            <span class="author-block"><sup style="color:#6fbf73;">2</sup>The Hong Kong University of Science and Technology (Guang Zhou),</span>
-            <span class="author-block"><sup style="color:#ed4b82">3</sup>HKBU, </span><br>
-            <span class="author-block"><sup style="color:#ed4b82">4</sup>University of Wisconsin-Madison,</span><br>
+            <span class="author-block"><sup style="color:#6fbf73;">2</sup>The Hong Kong University of Science and Technology (Guang Zhou),</span><br>
+            <span class="author-block"><sup style="color:#ed4b82">3</sup>HKBU, </span>
+            <span class="author-block"><sup style="color:#ed4b82">4</sup>University of Wisconsin-Madison,</span>
             <span class="author-block"><sup style="color:#ed4b82">5</sup>Harbin Institute of Technology, Shenzhen,</span><br>
             <span class="author-block"><sup style="color:#ed4b82">5</sup>The Hong Kong University of Science and Technology</span><br>
             <!--<span class="paper-block"><b style="color:#f41c1c"> ICLR 2026 </b></span>-->
@@ -183,7 +177,20 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Recent advancements in Multimodal Large Language Models (MLLMs) have demonstrated significant improvement in offline video understanding. However, extending these capabilities to streaming video inputs, remains challenging, as existing models struggle to simultaneously maintain stable understanding performance, real-time responses, and low GPU memory overhead. To address this challenge, we propose <b>HERMES</b>, a novel training-free architecture for real-time and accurate understanding of video streams. Based on a mechanistic attention investigation, we conceptualize KV cache as a hierarchical memory framework that encapsulates video information across multiple granularities. During inference, <b>HERMES</b> reuses a compact KV cache, enabling efficient streaming understanding under resource constraints. Notably, <b>HERMES</b> requires no auxiliary computations upon the arrival of user queries, thereby guaranteeing real-time responses for continuous video stream interactions, which achieves 10&times; faster TTFT compared to prior SOTA. Even when reducing video tokens by up to 68% compared with uniform sampling, <b>HERMES</b> achieves superior or comparable accuracy across all benchmarks, with up to 11.4% gains on streaming datasets.
+           The reasoning large language model (RLLM) has been proven competitive in solving complex reasoning tasks such as mathematics, coding, compared to general LLM. 
+            However, the serving performance and behavior of RLLM remains unexplored, which may undermine the deployment and utilization of RLLM in real-world scenario. 
+            To close this gap, in this paper, we conduct a comprehensive study of RLLM service. 
+            We first perform a pilot study on comparing the serving performance between RLLM and traditional LLM and reveal that there are several distinct differences regarding serving behavior: 
+            (1) significant memory usage and fluctuations; 
+            (2) straggler requests; 
+            (3) adaptive running time; 
+            (4) domain preference. 
+            Then we further investigate whether existing inference optimization techniques are valid for RLLM. 
+            Our main takeaways are that model quantization methods and speculative decoding can improve service system efficiency with a small compromise to RLLM accuracy, while prefix caching, 
+            KV cache quantization may even degrade accuracy or serving performance for small RLLM. 
+            Lastly, we conductevaluation under real world workload modeled by Gamma distribution to verify our findings. 
+            Empirical results for real world workload evaluation across different dataset are aligned with our main findings regarding RLLM serving. 
+            We hope our work can provide the research community and industry with insights to advance RLLM inference serving. 
           </p>
         </div>
       </div>
