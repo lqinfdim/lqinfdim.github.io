@@ -39,9 +39,6 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 - *2024.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2024.
 
 
-
-
-
 # 📖 Educations
 
 - *2025.08 - Current*, Tsinghua University, PhD Student.
@@ -78,6 +75,20 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 
 # 💻 Projects
 
+(For more details can click the images)
+<ul>
+    <br>
+        <a href="https://github.com/Zfancy/awesome-activation-engineering"><img src="../assets/figures/rllm-logo.jpeg" width="280" style="box-shadow: 4px 4px 8px #888" alt="ae"></a>
+    <!--    &nbsp &nbsp <a href="https://arxiv.org/abs/2410.23856"><img src="./files/logo_nora.jpg" width="280" style="box-shadow: 4px 4px 8px #888" alt="NoRa"></a>
+        &nbsp &nbsp <a href="https://confidence-average.github.io/"><img src="./files/logo_cover.jpg" width="280" style="box-shadow: 4px 4px 8px #888" alt="DecoulpingUnlearning"></a>
+        <!-- &nbsp &nbsp <a href="https://deepinception.github.io/"><img src="./files/logo_deepinception.png" width="280" style="box-shadow: 4px 4px 8px #888" alt="DeepInception"></a> -->
+        <br> 
+        <br>
+        <a href="https://github.com/AndrewZhou924/Awesome-model-inversion-attack"><img src="./files/logo_mia.001.jpeg" width="280" style="box-shadow: 4px 4px 8px #888" alt="MIA"></a>
+        &nbsp &nbsp <a href="https://arxiv.org/abs/2406.08288"><img src="./files/logo_decouple.jpg" width="280" style="box-shadow: 4px 4px 8px #888" alt="DecoulpingUnlearning"></a>
+        &nbsp &nbsp <a href="https://arxiv.org/abs/2406.09179"><img src="./files/logo_llmcontrol.jpg" width="280" style="box-shadow: 4px 4px 8px #888" alt="llmunlearningwithcontrol"></a> -->
+    <br>
+</ul>
 
 
 
