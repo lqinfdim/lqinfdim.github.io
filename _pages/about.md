@@ -78,7 +78,7 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 (For more details can click the images)
 <ul>
     <br>
-        <a href="https://lqinfdim.github.io/project/rllm-serving/index.html"><img src="../assets/figures/rllm-logo.png" width="280" style="box-shadow: 4px 4px 8px #888" alt="RLLM-Serving"></a>
+        <a href="https://lqinfdim.github.io/project/rllm-serving/index.html"><img src="../assets/figures/rllm-log.png" width="280" style="box-shadow: 4px 4px 8px #888" alt="RLLM-Serving"></a>
     <br>
 </ul>
 
