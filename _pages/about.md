@@ -27,9 +27,10 @@ My research interests focus on:
 
 I'm open to collaboration and discussion. Feel free to reach out via email!
 
-<!-- My research interests include efficient large language models  and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
+
 
 # 🔥 News
+<span class='anchor' id='news'></span>
 
 - *2026.01*: &nbsp;🎉🎉 One paper is accepted by ICLR 2026.
 - *2025.09*: &nbsp;🎉🎉 One paper is accepted by NeurIPS 2025. 
@@ -40,6 +41,7 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 
 
 # 📖 Educations
+<span class='anchor' id='educations'></span>
 
 - *2025.08 - Current*, Tsinghua University, PhD Student.
 - *2019.08 - 2022.08*, Tsinghua University, Master of Engineering. 
@@ -47,21 +49,8 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 
 
 # 📝 Selected Publications 
+<span class='anchor' id='publications'></span>
 
-<!--
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 - Li Q, Wu J, Liu X, et al. Reasoning language model inference serving unveiled: An empirical study[J]. Long Paper of The Fourteenth International Conference on Learning Representations (ICLR 2026, Tsinghua-A). 
 - Li Q. et.al. AdaEdit: Advancing Continuous Knowledge Editing For Large Language Models. Long paper of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025, CCF-A).
@@ -74,6 +63,7 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 
 
 # 💻 Projects
+<span class='anchor' id='projects'></span>
 
 (For more details can click the images)
 <ul>
