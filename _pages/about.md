@@ -49,16 +49,6 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 - *2014.09 - 2018.06*, Lanzhou University, Bachelor of Engineering.
 
 
-<!--
-
-# 💻 Preprint Papers
-
-- Qi Li, Junpan Wu, Xiang Liu, Yuxin Wang, Zeyu Li, Zhenheng Tang, Yuhan Chen, Shaohuai Shi, Xiaowen Chu. Reasoning Language Model Inference Serving Unveiled: An Empirical Study. Online, Oct, 2025.
-  [ArXiv](https://arxiv.org/abs/2510.18672) [HuggingFace](https://huggingface.co/papers/2510.18672).
-
-  -->
-
-
 # 📝 Selected Publications 
 
 <!--
@@ -83,6 +73,13 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 - Li Q. et.al. Should We Really Edit Language Models? On the Comprehensive Evaluation of Edited Language Models. Main Track Paper of the Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS 2024, CCF-A).
 - Li, Q. et al. Can We Continually Edit Language Models? On the Knowledge Attenuation in Sequential Model Editing. Long paper of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024, CCF-A).
 - Li, Q. et.al. Harnessing the Power of Pre-trained Vision-Language Models for Efficient Medical Report Generation. Long Paper of 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023 Oral, CCF-B). 
+
+
+
+# 💻 Projects
+
+
+
 
 # 🎖 Honors and Awards
 
