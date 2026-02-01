@@ -27,7 +27,7 @@ My current research interests focus on:
 
 I'm open to collaboration and discussion. Feel free to reach out via email!
 
-**Email**  lqinfdim AT 163.com
+**Email:**  lqinfdim AT 163.com
 
 
 <span class='anchor' id='news'></span>
