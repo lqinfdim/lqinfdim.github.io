@@ -28,9 +28,9 @@ My research interests focus on:
 I'm open to collaboration and discussion. Feel free to reach out via email!
 
 
-
-# 🔥 News
 <span class='anchor' id='news'></span>
+# 🔥 News 
+
 
 - *2026.01*: &nbsp;🎉🎉 One paper is accepted by ICLR 2026.
 - *2025.09*: &nbsp;🎉🎉 One paper is accepted by NeurIPS 2025. 
@@ -40,16 +40,18 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 - *2024.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2024.
 
 
-# 📖 Educations
 <span class='anchor' id='educations'></span>
+# 📖 Educations
+
 
 - *2025.08 - Current*, Tsinghua University, PhD Student.
 - *2019.08 - 2022.08*, Tsinghua University, Master of Engineering. 
 - *2014.09 - 2018.06*, Lanzhou University, Bachelor of Engineering.
+  
 
-
-# 📝 Selected Publications 
 <span class='anchor' id='publications'></span>
+# 📝 Selected Publications 
+
 
 
 - Li Q, Wu J, Liu X, et al. Reasoning language model inference serving unveiled: An empirical study[J]. Long Paper of The Fourteenth International Conference on Learning Representations (ICLR 2026, Tsinghua-A). 
@@ -61,11 +63,10 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 - Li, Q. et.al. Harnessing the Power of Pre-trained Vision-Language Models for Efficient Medical Report Generation. Long Paper of 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023 Oral, CCF-B). 
 
 
-
-# 💻 Projects
 <span class='anchor' id='projects'></span>
-
+# 💻 Projects
 (For more details can click the images)
+
 <ul>
     <br>
         <a href="https://lqinfdim.github.io/project/rllm-serving/index.html"><img src="../assets/figures/rllm-log.png" width="280" style="box-shadow: 4px 4px 8px #888" alt="RLLM-Serving"></a>
