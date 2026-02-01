@@ -69,7 +69,7 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 <ul>
     <br>
         <a href="https://lqinfdim.github.io/project/rllm-serving/index.html"><img src="../assets/figures/rllm-log.png" width="280" style="box-shadow: 4px 4px 8px #888" alt="RLLM-Serving"></a>
-        &nbsp &nbsp <a href="https://lqinfdim.github.io/project/editing-evaluation/index.html"><img src="../images/editing-evaluation" width="280" style="box-shadow: 4px 4px 8px #888" alt="Editing-Evaluation"></a>
+        &nbsp &nbsp <a href="https://lqinfdim.github.io/project/editing-evaluation/index.html"><img src="../images/editing-evaluation.png" width="280" style="box-shadow: 4px 4px 8px #888" alt="Editing-Evaluation"></a>
     <br>
 </ul>
 
