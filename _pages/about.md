@@ -69,6 +69,7 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 <ul>
     <br>
         <a href="https://lqinfdim.github.io/project/rllm-serving/index.html"><img src="../assets/figures/rllm-log.png" width="280" style="box-shadow: 4px 4px 8px #888" alt="RLLM-Serving"></a>
+        &nbsp &nbsp <a href="https://lqinfdim.github.io/project/editing-evaluation/index.html"><img src="../images/editing-evaluation" width="280" style="box-shadow: 4px 4px 8px #888" alt="Editing-Evaluation"></a>
     <br>
 </ul>
 
@@ -86,16 +87,4 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 
 # 👔 Academic Services
 
-* Reviewer: ACL ARR'25,26, ICML'25,26, ICLR'25,26, NeurIPS'24,25, CVPR'26, EMNLP'23,24,25, ICASSP'23,24,25,26, ECAI'23,24, ICME'24,25,26
-
-<!--
-# 💻 Experience
-
-- *2023.09 - Current*, Research Intern, HKUST(GZ), China.
-- *2022.10 - 2023.01*, Research Intern, Tsinghua University, China. -->
-
-<!--
-💻 📕
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
+* Conference Reviewer: ACL ARR'25,26, ICML'25,26, ICLR'25,26, NeurIPS'24,25, CVPR'26, EMNLP'23,24,25, ICASSP'23,24,25,26, ECAI'23,24, ICME'24,25,26
