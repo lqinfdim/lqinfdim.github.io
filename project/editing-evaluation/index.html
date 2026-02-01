@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding">
+  <meta name="keywords" content="HERMES">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="icon" type="image/png" href="figures/logo.png">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <style>
+    .section-title-bar-wrapper {
+      background-color: #f5f5f5;
+      max-width: 1200px;
+      margin: 0 auto 20px auto;
+      padding: 20px 0;
+      border-radius: 5px;
+    }
+    .section-title-bar-wrapper .title {
+      margin-bottom: 0 !important;
+    }
+    .subsection-title {
+      font-size: 1.75rem;
+      font-weight: 600;
+      color: #363636;
+      margin-bottom: 10px;
+    }
+    .result-card {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.08);
+      padding: 25px;
+      margin-bottom: 30px;
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+    .result-card:hover {
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15), 0 4px 10px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+  </style>
+
+  <!--  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title is-bold">
+            <img src="figures/logo.png" alt="HERMES logo" style="height: 1.2em; vertical-align: middle; margin-right: 0.1em;">
+            <span class="hermes" style="vertical-align: middle">HERMES</span>
+            </h1>
+          <h2 class="subtitle is-3 publication-subtitle">
+            KV Cache as Hierarchical Memory for<br>Efficient Streaming Video Understanding
+          </h2>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://haowei-freesky.github.io/">Haowei Zhang</a><sup style="color:#0e419c;">1*</sup>,</span>
+            <span class="author-block">
+              <a href="https://luppppy.github.io/">Shudong Yang</a><sup style="color:#6fbf73">2*</sup>,</span>
+            <span class="author-block">
+              <a href="https://jinlanfu.github.io/">Jinlan Fu</a><sup style="color:#0e419c">1,</sup><sup style="color:#ed4b82">3&dagger;</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.comp.nus.edu.sg/~ngsk/">See-Kiong Ng</a><sup style="color:#ed4b82">3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://xpqiu.github.io/">Xipeng Qiu</a><sup style="color:#0e419c">1,</sup><sup style="color:#6fbf73">2</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup style="color:#0e419c">1</sup>Fudan University,</span>
+            <span class="author-block"><sup style="color:#6fbf73;">2</sup>Shanghai Innovation Institute,</span>
+            <span class="author-block"><sup style="color:#ed4b82">3</sup>National University of Singapore,</span><br>
+            <!--<span class="paper-block"><b style="color:#f41c1c">EMNLP 2024 Findings</b></span>-->
+          </div>
+          <div class="is-size-6 publication-authors">
+            <span class="author-block">* Equal contribution</span>
+            <span class="author-block">&dagger; Corresponding author</span>
+            <!--<span class="paper-block"><b style="color:#f41c1c">EMNLP 2024 Findings</b></span>-->
+          </div>
+          
+          
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://github.com/HERMES-streaming/HERMES-streaming.github.io/blob/main/HERMES_arxiv.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2601.14724" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/haowei-freesky/HERMES"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container" style="margin-top: -150px; margin-bottom: -100px;">
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <div class="content has-text-centered">
+          <img src="figures/teaser.png" alt="motivation" style="max-width: 100%;"/>
+          <p> 
+            <span class="hermes"><b>Left</b>: <b>HERMES</b> is a training-free approach for efficient streaming video understanding, enabling stable inference by reusing KV cache and performing hierarchical management of video tokens stored in KV cache. <b>Middle</b>: <b>HERMES</b> is based on a mechanistic investigation of the layer-wise attention preferences over hierarchical video information. <b>Right</b>: We evaluate LLaVA-OV-7B on a single A800 GPU (80 GB). As input frames increase, <b>HERMES</b> consistently maintains extremely low latency (TTFT &lt; 30 ms) and stable GPU memory consumption, exhibiting no risk of OOM errors and requiring no auxiliary external computational resources.</span>.<br/>
+          </p> 
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<section class="section">
+  <div class="container" style="margin-bottom: 2vh;">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Recent advancements in Multimodal Large Language Models (MLLMs) have demonstrated significant improvement in offline video understanding. However, extending these capabilities to streaming video inputs, remains challenging, as existing models struggle to simultaneously maintain stable understanding performance, real-time responses, and low GPU memory overhead. To address this challenge, we propose <b>HERMES</b>, a novel training-free architecture for real-time and accurate understanding of video streams. Based on a mechanistic attention investigation, we conceptualize KV cache as a hierarchical memory framework that encapsulates video information across multiple granularities. During inference, <b>HERMES</b> reuses a compact KV cache, enabling efficient streaming understanding under resource constraints. Notably, <b>HERMES</b> requires no auxiliary computations upon the arrival of user queries, thereby guaranteeing real-time responses for continuous video stream interactions, which achieves 10&times; faster TTFT compared to prior SOTA. Even when reducing video tokens by up to 68% compared with uniform sampling, <b>HERMES</b> achieves superior or comparable accuracy across all benchmarks, with up to 11.4% gains on streaming datasets.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+</div>
+</section>
+
+<section class="section">
+  <!-- Mechanistic Investigation. -->
+  <div class="section-title-bar-wrapper">
+    <div class="container has-text-centered">
+      <h2 class="title is-2">Mechanistic Investigation</h2>
+    </div>
+  </div>
+  <!--/ Mechanistic Investigation. -->
+</section>
+
+<section class="section">
+  <div class="container" style="margin-top: -150px; margin-bottom: -100px;">
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <div class="content has-text-centered">
+          <img src="figures/investigation.png" alt="mechanistic_investigation" style="max-width: 100%;"/>
+          <p> 
+            <span class="hermes">Visualization of the average attention weights (log scale) for user queries over video tokens in \llava with a FIFO KV cache budget of 6K video tokens per layer, averaged across 300 user video questions.<br/>
+          </p> 
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="section">
+  <!-- Overview. -->
+  <div class="section-title-bar-wrapper">
+    <div class="container has-text-centered">
+      <h2 class="title is-2">Overview</h2>
+    </div>
+  </div>
+  <!--/ Overview. -->
+</section>
+
+<section class="section">
+  <div class="container" style="margin-top: -150px; margin-bottom: -100px;">
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <div class="content has-text-centered">
+          <img src="figures/overview.png" alt="overview" style="max-width: 100%;"/>
+          <p> 
+            <span class="hermes">Overview of the HERMES architecture for streaming video QA. By implementing a hierarchical KV cache and specialized management strategies, HERMES enables real-time and accurate responses through direct cache reuse, eliminating the need for additional retrieval operations or external memory whenever users pose questions.<br/>
+          </p> 
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="section">
+  <!-- Experimental Results. -->
+  <div class="section-title-bar-wrapper">
+    <div class="container has-text-centered">
+      <h2 class="title is-2">Experimental Results</h2>
+    </div>
+  </div>
+  <!--/ Experimental Results. -->
+</section>
+
+<section class="section">
+  <div class="container" style="margin-top: -100px; margin-bottom: -50px;">
+    <div class="columns is-centered has-text-centered" style="margin-bottom: -30px;">
+      <div class="column is-four-fifths">
+        <h3 class="subsection-title">Accuracy Performance</h3>
+      </div>
+    </div>
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <div class="result-card">
+          <img src="figures/results_streaming.png" alt="results" style="max-width: 100%;"/>
+          <p> 
+            <span class="hermes">Performance comparison (%) on StreamingBench and OVO-Bench. The "Avg." column reports the results of the average accuracy of real-time visual perception and backward tracing tasks.<br/>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <div class="result-card">
+          <img src="figures/results_streaming_rvs.png" alt="results" style="max-width: 100%;"/>
+          <p> 
+            <span class="hermes">Performance on RVS-Ego and RVS-Movie. &dagger;: ReKV caches the KV states of all previously seen frames and is therefore treated as an upper bound.<br/>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <div class="result-card">
+          <img src="figures/results_offline.png" alt="results" style="max-width: 100%;"/>
+          <p> 
+            <span class="hermes">Performance comparison (%) on offline benchmarks.<br/>
+          </p> 
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="section">
+  <div class="container" style="margin-top: -50px; margin-bottom: -50px;">
+    <div class="columns is-centered has-text-centered" style="margin-bottom: -30px;">
+      <div class="column is-four-fifths">
+        <h3 class="subsection-title">Efficiency Analysis</h3>
+      </div>
+    </div>
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <div class="result-card">
+          <img src="figures/results_efficiency.png" alt="results" style="max-width: 100%;"/>
+          <p> 
+            <span class="hermes">GPU memory and TTFT latency comparison across input frame numbers. HERMES achieves 10&times; faster in TTFT compared to prior SOTA.<br/>
+          </p> 
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <div class="result-card">
+          <img src="figures/results_efficiency_chunk_size.png" alt="results" style="max-width: 100%;"/>
+          <p> 
+            <span class="hermes">Efficiency across input frame numbers under two chunk sizes. "TTFT" denotes <i>Time to First Token</i> and "TPOT" denotes <i>Time Per Output Token</i>.<br/>
+          </p> 
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<!-- @PAN TODO: bibtex -->
+<section class="section" id="Citation">
+  <div class="container is-max-desktop content">
+    <h2 class="title is-3 has-text-centered">Citation</h2>
+    <pre><code>
+      @misc{zhang2026hermeskvcachehierarchical,
+      title={HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding}, 
+      author={Haowei Zhang and Shudong Yang and Jinlan Fu and See-Kiong Ng and Xipeng Qiu},
+      year={2026},
+      eprint={2601.14724},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2601.14724}, 
+    }
+    </code></pre>
+  </div>
+</section>
+
+<!-- <section>
+  <div class="section" id="org-banners" style="display:flex">
+    <a href="https://www.yale.edu/" target="_blank" rel="external">
+        <img class="center-block org-banner" src="static/images/yale.png">
+    </a>
+    <a href="https://www.nyu.edu/" target="blank" rel="external">
+        <img class="center-block org-banner" src="static/images/nyu.png">
+    </a>
+    <a href="https://shanghai.nyu.edu/" target="_blank" rel="external">
+        <img class="center-block org-banner" src="static/images/nyush.png">
+    </a>
+    <a href="https://www.psu.edu/" target="_blank" rel="external">
+      <img class="center-block org-banner" src="static/images/psu.png">
+    </a>
+    <a href="https://allenai.org/" target="_blank" rel="external">
+      <img class="center-block org-banner" src="static/images/ai2.png">
+    </a>
+  </div>
+</section> -->
+
+
+<footer class="footer">
+  <!-- <div class="container"> -->
+    <div class="content has-text-centered">
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is adapted from <a href="https://mathvista.github.io/">MathVista</a>, licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+</footer>
+
+</body>
+</html>
