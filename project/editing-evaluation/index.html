@@ -3,13 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding">
-  <meta name="keywords" content="HERMES">
+        content="Knowledge Editing Evaluation">
+  <meta name="keywords" content="Editing Evaluation">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding</title>
+  <title> Should We Really Edit Language Models? On the Evaluation of Edited Language Models</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
-  <link rel="icon" type="image/png" href="figures/logo.png">
 
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
@@ -65,45 +64,54 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title is-bold">
-            <img src="figures/logo.png" alt="HERMES logo" style="height: 1.2em; vertical-align: middle; margin-right: 0.1em;">
-            <span class="hermes" style="vertical-align: middle">HERMES</span>
+            <span class="hermes" style="vertical-align: middle">Editing Evaluation</span>
             </h1>
           <h2 class="subtitle is-3 publication-subtitle">
-            KV Cache as Hierarchical Memory for<br>Efficient Streaming Video Understanding
+             Should We Really Edit Language Models? On the Evaluation of Edited Language Models
           </h2>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://haowei-freesky.github.io/">Haowei Zhang</a><sup style="color:#0e419c;">1*</sup>,</span>
-            <span class="author-block">
-              <a href="https://luppppy.github.io/">Shudong Yang</a><sup style="color:#6fbf73">2*</sup>,</span>
-            <span class="author-block">
-              <a href="https://jinlanfu.github.io/">Jinlan Fu</a><sup style="color:#0e419c">1,</sup><sup style="color:#ed4b82">3&dagger;</sup>,
+              <a href="https://lqinfdim.github.io">Qi Li</a><sup style="color:#0e419c;">1,2*</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.comp.nus.edu.sg/~ngsk/">See-Kiong Ng</a><sup style="color:#ed4b82">3</sup>,
+              <a href="#">Xiang Liu</a><sup style="color:#6fbf73">1*</sup>,
             </span>
             <span class="author-block">
-              <a href="https://xpqiu.github.io/">Xipeng Qiu</a><sup style="color:#0e419c">1,</sup><sup style="color:#6fbf73">2</sup>
+              <a href="#">Zhenheng Tang</a><sup style="color:#0e419c">3,</sup>,
             </span>
+            <span class="author-block">
+              <a href="#">Peijie Dong</a><sup style="color:#ed4b82">1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="#">Zeyu Li</a><sup style="color:#0e419c">1,</sup><sup style="color:#6fbf73">2</sup>
+            </span>
+            <span class="author-block">
+              <a href="#">Xinglin Pan</a><sup style="color:#0e419c">1,</sup><sup style="color:#6fbf73">2</sup>
+            </span>
+            <span class="author-block">
+              <a href="#">Xiaowen Chu</a><sup style="color:#0e419c">1,</sup><sup style="color:#6fbf73">2</sup>
+            </span>
+
+            
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup style="color:#0e419c">1</sup>Fudan University,</span>
-            <span class="author-block"><sup style="color:#6fbf73;">2</sup>Shanghai Innovation Institute,</span>
-            <span class="author-block"><sup style="color:#ed4b82">3</sup>National University of Singapore,</span><br>
+            <span class="author-block"><sup style="color:#0e419c">1</sup>The Hong Kong University of Science and Technology (Guangzhou),</span>
+            <span class="author-block"><sup style="color:#6fbf73;">2</sup>Hong Kong Baptist University,</span>
+            <span class="author-block"><sup style="color:#ed4b82">3</sup>Tsinghua University</span><br>
             <!--<span class="paper-block"><b style="color:#f41c1c">EMNLP 2024 Findings</b></span>-->
           </div>
           <div class="is-size-6 publication-authors">
             <span class="author-block">* Equal contribution</span>
             <span class="author-block">&dagger; Corresponding author</span>
-            <!--<span class="paper-block"><b style="color:#f41c1c">EMNLP 2024 Findings</b></span>-->
+            <span class="paper-block"><b style="color:#f41c1c">NeurIPS 2024</b></span>
           </div>
           
           
           <div class="column has-text-centered">
             <div class="publication-links">
               <span class="link-block">
-                <a href="https://github.com/HERMES-streaming/HERMES-streaming.github.io/blob/main/HERMES_arxiv.pdf"
+                <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/370fa2e691f57eb319bc263a07dad4a5-Abstract-Conference.html"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -112,7 +120,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2601.14724" class="external-link button is-normal is-rounded is-dark">
+                <a href="https://arxiv.org/abs/2410.18785" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
                   </span>
@@ -120,7 +128,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://github.com/haowei-freesky/HERMES"
+                <a href="https://github.com/lqinfdim/EditingEvaluation"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -161,7 +169,16 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Recent advancements in Multimodal Large Language Models (MLLMs) have demonstrated significant improvement in offline video understanding. However, extending these capabilities to streaming video inputs, remains challenging, as existing models struggle to simultaneously maintain stable understanding performance, real-time responses, and low GPU memory overhead. To address this challenge, we propose <b>HERMES</b>, a novel training-free architecture for real-time and accurate understanding of video streams. Based on a mechanistic attention investigation, we conceptualize KV cache as a hierarchical memory framework that encapsulates video information across multiple granularities. During inference, <b>HERMES</b> reuses a compact KV cache, enabling efficient streaming understanding under resource constraints. Notably, <b>HERMES</b> requires no auxiliary computations upon the arrival of user queries, thereby guaranteeing real-time responses for continuous video stream interactions, which achieves 10&times; faster TTFT compared to prior SOTA. Even when reducing video tokens by up to 68% compared with uniform sampling, <b>HERMES</b> achieves superior or comparable accuracy across all benchmarks, with up to 11.4% gains on streaming datasets.
+            Model editing has become an increasingly popular alternative for efficiently updating knowledge within language models. 
+            Current methods mainly focus on reliability, generalization, and locality, with many methods excelling across these criteria. 
+            Some recent works disclose the pitfalls of these editing methods such as knowledge distortion or conflict. 
+            However, the general abilities of post-edited language models remain unexplored. 
+            In this paper, we perform a comprehensive evaluation on various editing methods and different language models, and have the following findings:
+            (1) Existing editing methods lead to inevitable performance deterioration on general benchmarks, indicating that existing editing methods maintain the general abilities of the model within only a few dozen edits. 
+            When the number of edits is slightly large, the intrinsic knowledge structure of the model is disrupted or even completely damaged. 
+            (2) Instruction-tuned models are more robust to editing, showing less performance drop on general knowledge after editing. 
+            (3) Language model with large scale is more resistant to editing compared to small model. (4) The safety of the edited model is significantly weakened, even for those safety-aligned models. 
+            Our findings indicate that current editing methods are only suitable for small-scale knowledge updates within language models, which motivates further research on more practical and reliable editing methods.
           </p>
         </div>
       </div>
@@ -297,20 +314,18 @@
 </section>
 
 
-<!-- @PAN TODO: bibtex -->
 <section class="section" id="Citation">
   <div class="container is-max-desktop content">
     <h2 class="title is-3 has-text-centered">Citation</h2>
     <pre><code>
-      @misc{zhang2026hermeskvcachehierarchical,
-      title={HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding}, 
-      author={Haowei Zhang and Shudong Yang and Jinlan Fu and See-Kiong Ng and Xipeng Qiu},
-      year={2026},
-      eprint={2601.14724},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2601.14724}, 
-    }
+          @inproceedings{
+          editing-evaluation,
+          title={Should We Really Edit Language Models? On the Evaluation of Edited Language Models},
+          author={Qi Li and Xiang Liu and Zhenheng Tang and Peijie Dong and Zeyu Li and Xinglin Pan and Xiaowen Chu},
+          booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+          year={2024},
+          url={https://openreview.net/forum?id=m0DS4OOmSY}
+          }
     </code></pre>
   </div>
 </section>
