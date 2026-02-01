@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="description"
         content="Knowledge Editing Evaluation">
-  <meta name="keywords" content="Editing Evaluation">
+  <meta name="keywords" content="Editing Evaluation, Model Editing, Language Models">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title> Should We Really Edit Language Models? On the Evaluation of Edited Language Models</title>
 
@@ -77,19 +77,19 @@
               <a href="#">Xiang Liu</a><sup style="color:#6fbf73">1*</sup>,
             </span>
             <span class="author-block">
-              <a href="#">Zhenheng Tang</a><sup style="color:#0e419c">2,</sup>,
+              <a href="#">Zhenheng Tang</a><sup style="color:#0e419c">2</sup>,
             </span>
             <span class="author-block">
               <a href="#">Peijie Dong</a><sup style="color:#ed4b82">1</sup>,
             </span>
             <span class="author-block">
-              <a href="#">Zeyu Li</a><sup style="color:#0e419c">1,</sup><sup style="color:#6fbf73">2</sup>
+              <a href="#">Zeyu Li</a><sup style="color:#0e419c">1</sup><sup style="color:#6fbf73">2</sup>
             </span>
             <span class="author-block">
-              <a href="#">Xinglin Pan</a><sup style="color:#0e419c">1,</sup><sup style="color:#6fbf73">2</sup>
+              <a href="#">Xinglin Pan</a><sup style="color:#0e419c">1</sup><sup style="color:#6fbf73">2</sup>
             </span>
             <span class="author-block">
-              <a href="#">Xiaowen Chu</a><sup style="color:#0e419c">1,</sup><sup style="color:#6fbf73">2</sup>
+              <a href="#">Xiaowen Chu</a><sup style="color:#0e419c">1, &dagger;</sup><sup style="color:#6fbf73">2</sup>
             </span>
 
             
@@ -172,29 +172,6 @@
 </div>
 </section>
 
-<section class="section">
-  <!-- Mechanistic Investigation. -->
-  <div class="section-title-bar-wrapper">
-    <div class="container has-text-centered">
-      <h2 class="title is-2">Mechanistic Investigation</h2>
-    </div>
-  </div>
-  <!--/ Mechanistic Investigation. -->
-</section>
-
-<section class="section">
-  <div class="container" style="margin-top: -150px; margin-bottom: -100px;">
-    <div class="columns is-centered m-6">
-      <div class="column is-full has-text-centered content">
-        <div class="content has-text-centered">
-          <img src="figures/investigation.png" alt="mechanistic_investigation" style="max-width: 100%;"/>
-          <p> 
-            <span class="hermes">Visualization of the average attention weights (log scale) for user queries over video tokens in \llava with a FIFO KV cache budget of 6K video tokens per layer, averaged across 300 user video questions.<br/>
-          </p> 
-        </div>
-      </div>
-    </div>
-</section>
 
 <section class="section">
   <!-- Overview. -->
@@ -213,7 +190,11 @@
         <div class="content has-text-centered">
           <img src="figures/overview.png" alt="overview" style="max-width: 100%;"/>
           <p> 
-            <span class="hermes">Overview of the HERMES architecture for streaming video QA. By implementing a hierarchical KV cache and specialized management strategies, HERMES enables real-time and accurate responses through direct cache reuse, eliminating the need for additional retrieval operations or external memory whenever users pose questions.<br/>
+            <span class="hermes">
+              Overview of our evaluation of edited language models. 
+              We illustrate how model editing updates factual knowledge in LLMs (left), 
+              and show that when sequential edits are scaled to the thousands, the general abilities and even the intrinsic knowledge structure of the model can be severely degraded, leading to a <i>muting effect</i> where the model fails to produce meaningful outputs (right).
+            </span>
           </p> 
         </div>
       </div>
@@ -234,7 +215,7 @@
   <div class="container" style="margin-top: -100px; margin-bottom: -50px;">
     <div class="columns is-centered has-text-centered" style="margin-bottom: -30px;">
       <div class="column is-four-fifths">
-        <h3 class="subsection-title">Accuracy Performance</h3>
+        <h3 class="subsection-title">Overall Performance Trends</h3>
       </div>
     </div>
     <div class="columns is-centered m-6">
@@ -242,7 +223,11 @@
         <div class="result-card">
           <img src="figures/results_streaming.png" alt="results" style="max-width: 100%;"/>
           <p> 
-            <span class="hermes">Performance comparison (%) on StreamingBench and OVO-Bench. The "Avg." column reports the results of the average accuracy of real-time visual perception and backward tracing tasks.<br/>
+            <span class="hermes">
+              Impact of the number of edits (RQ1). 
+              We evaluate edited Llama2-7B base models on MMLU, BBH, GSM8K and CSQA as we increase the number of sequential edits for different editing methods. 
+              Most methods preserve performance for fewer than about 20 edits, but many degrade sharply when edits grow into the hundreds, whereas methods such as PMET and MEND remain comparatively stable.
+            </span>
           </p> 
         </div>
       </div>
@@ -252,7 +237,11 @@
         <div class="result-card">
           <img src="figures/results_streaming_rvs.png" alt="results" style="max-width: 100%;"/>
           <p> 
-            <span class="hermes">Performance on RVS-Ego and RVS-Movie. &dagger;: ReKV caches the KV states of all previously seen frames and is therefore treated as an upper bound.<br/>
+            <span class="hermes">
+              Effect of instruction tuning (RQ2). 
+              We compare Llama2-7B base and Llama2-chat-7B after applying various editing methods. 
+              Instruction-tuned models exhibit a slower rate of performance decline under sequential editing, indicating that instruction tuning improves robustness of general abilities to editing.
+            </span>
           </p> 
         </div>
       </div>
@@ -262,7 +251,11 @@
         <div class="result-card">
           <img src="figures/results_offline.png" alt="results" style="max-width: 100%;"/>
           <p> 
-            <span class="hermes">Performance comparison (%) on offline benchmarks.<br/>
+            <span class="hermes">
+              Effect of model scale (RQ3). 
+              Using the Pythia family (160M–12B parameters), we analyze how editing with methods such as ROME and MEMIT affects models of different sizes. 
+              Larger models show less degradation on general benchmarks after editing, especially for ROME, while MEMIT is relatively insensitive to scale.
+            </span>
           </p> 
         </div>
       </div>
@@ -273,7 +266,7 @@
   <div class="container" style="margin-top: -50px; margin-bottom: -50px;">
     <div class="columns is-centered has-text-centered" style="margin-bottom: -30px;">
       <div class="column is-four-fifths">
-        <h3 class="subsection-title">Efficiency Analysis</h3>
+        <h3 class="subsection-title">Capability &amp; Safety Analysis</h3>
       </div>
     </div>
     <div class="columns is-centered m-6">
@@ -281,7 +274,11 @@
         <div class="result-card">
           <img src="figures/results_efficiency.png" alt="results" style="max-width: 100%;"/>
           <p> 
-            <span class="hermes">GPU memory and TTFT latency comparison across input frame numbers. HERMES achieves 10&times; faster in TTFT compared to prior SOTA.<br/>
+            <span class="hermes">
+              Different capability dimensions (RQ4). 
+              We evaluate edited models on world knowledge and reasoning (MMLU, BBH, CSQA), mathematics (GSM8K), and reading comprehension. 
+              Across these tasks, different editing methods tend to affect all capabilities to a roughly similar extent, with PMET and MEND best preserving performance even after many edits.
+            </span>
           </p> 
         </div>
       </div>
@@ -291,7 +288,12 @@
         <div class="result-card">
           <img src="figures/results_efficiency_chunk_size.png" alt="results" style="max-width: 100%;"/>
           <p> 
-            <span class="hermes">Efficiency across input frame numbers under two chunk sizes. "TTFT" denotes <i>Time to First Token</i> and "TPOT" denotes <i>Time Per Output Token</i>.<br/>
+            <span class="hermes">
+              Safety of edited models (RQ5). 
+              We assess safety on TruthfulQA and ToxiGen and find that even dozens of edits can noticeably compromise safety, increasing the chance of untruthful or toxic generations, 
+              even for safety-aligned models. 
+              Under extremely large numbers of edits, the disruption of the model’s knowledge structure can lead to apparent but misleading improvements in some safety metrics due to the muting effect.
+            </span>
           </p> 
         </div>
       </div>
@@ -303,38 +305,16 @@
   <div class="container is-max-desktop content">
     <h2 class="title is-3 has-text-centered">Citation</h2>
     <pre><code>
-          @inproceedings{
-          editing-evaluation,
-          title={Should We Really Edit Language Models? On the Evaluation of Edited Language Models},
-          author={Qi Li and Xiang Liu and Zhenheng Tang and Peijie Dong and Zeyu Li and Xinglin Pan and Xiaowen Chu},
-          booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
-          year={2024},
-          url={https://openreview.net/forum?id=m0DS4OOmSY}
-          }
+@inproceedings{editing-evaluation,
+  title={Should We Really Edit Language Models? On the Evaluation of Edited Language Models},
+  author={Qi Li and Xiang Liu and Zhenheng Tang and Peijie Dong and Zeyu Li and Xinglin Pan and Xiaowen Chu},
+  booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+  year={2024},
+  url={https://openreview.net/forum?id=m0DS4OOmSY}
+}
     </code></pre>
   </div>
 </section>
-
-<!-- <section>
-  <div class="section" id="org-banners" style="display:flex">
-    <a href="https://www.yale.edu/" target="_blank" rel="external">
-        <img class="center-block org-banner" src="static/images/yale.png">
-    </a>
-    <a href="https://www.nyu.edu/" target="blank" rel="external">
-        <img class="center-block org-banner" src="static/images/nyu.png">
-    </a>
-    <a href="https://shanghai.nyu.edu/" target="_blank" rel="external">
-        <img class="center-block org-banner" src="static/images/nyush.png">
-    </a>
-    <a href="https://www.psu.edu/" target="_blank" rel="external">
-      <img class="center-block org-banner" src="static/images/psu.png">
-    </a>
-    <a href="https://allenai.org/" target="_blank" rel="external">
-      <img class="center-block org-banner" src="static/images/ai2.png">
-    </a>
-  </div>
-</section> -->
-
 
 <footer class="footer">
   <!-- <div class="container"> -->
