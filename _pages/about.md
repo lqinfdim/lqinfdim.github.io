@@ -17,15 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello there! I'm Qi Li, a CS PhD student at Tsinghua University, where I also serve as a research intern at HKUST-GZ. I received my Master's degree in Engineering from Tsing University, and my Bachelor's degree in Engineering from Lanzhou University (LZU).
+Hi there! I'm Qi Li, a CS PhD student at Tsinghua University, where I also serve as a visiting student at HKUST-GZ. I received my Master's degree in Engineering from Tsinghua University, and my Bachelor's degree in Engineering from Lanzhou University (LZU).
 
-My research interests focus on:
+My current research interests focus on:
 - Efficient algorithm for LLM: PEFT, Knowledge Editing
-- Post-training for LLM
+- Post-training of LLM
 - Machine learning systems for LLM
 - Understanding LLM from both theoretical and empirical perspectives
 
 I'm open to collaboration and discussion. Feel free to reach out via email!
+
+**Email**  lqinfdim AT 163.com
 
 
 <span class='anchor' id='news'></span>
