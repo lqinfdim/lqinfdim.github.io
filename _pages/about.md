@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there! I'm Qi Li, a CS PhD student at Tsinghua University, where I also serve as a visiting student at HKUST-GZ. I received my Master's degree in Engineering from Tsinghua University, and my Bachelor's degree in Engineering from Lanzhou University (LZU).
+Hi there! I'm Qi Li, a CS PhD student at Tsinghua University, and I also serve as a visiting student at HKUST-GZ. I received my Master's degree from Tsinghua University, and my Bachelor's degree in computer science from Lanzhou University.
 
 My current research interests focus on:
 - Efficient algorithm for LLM: PEFT, Knowledge Editing
@@ -90,4 +90,5 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 
 # 👔 Academic Services
 
-* Conference Reviewer: ACL ARR'25,26, ICML'25,26, ICLR'25,26, NeurIPS'24,25, CVPR'26, EMNLP'23,24,25, ICASSP'23,24,25,26, ECAI'23,24, ICME'24,25,26
+- **Conference Reviewer:** ACL ARR'25,26, ICML'25,26, ICLR'25,26, NeurIPS'24,25, CVPR'26, EMNLP'23,24,25, ICASSP'23,24,25,26, ECAI'23,24, ICME'24,25,26
+- **Journal Reviewer:** TMLR, DMLR
