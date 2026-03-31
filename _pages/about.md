@@ -56,7 +56,7 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 
 
 
-- Li Q, Wu J, Liu X, et al. Reasoning language model inference serving unveiled: An empirical study[J]. Long Paper of The Fourteenth International Conference on Learning Representations (ICLR 2026, Tsinghua-A). 
+- Li Q, Wu J, Liu X, et al. Reasoning language model inference serving unveiled: An empirical study. Long Paper of The Fourteenth International Conference on Learning Representations (ICLR 2026, CCF-A). 
 - Li Q. et.al. AdaEdit: Advancing Continuous Knowledge Editing For Large Language Models. Long paper of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025, CCF-A).
 - Qingyue Zhang, Haohao Fu, Guanbo Huang, Yaoyuan Liang, Chang Chu, Tianren Peng, Yanru Wu, Qi Li, Yang Li, Shao-Lun Huang. A High-Dimensional Statistical Method for Optimizing Transfer Quantities in Multi-Source Transfer Learning. Main Track Paper of the Thirty-nith Annual Conference on Neural Information Processing Systems (NeurIPS 2025, CCF-A).
 - T. Peng, Q. Li, S.-L. Huang, "On the Optimal Second-Order Convergence Rate of Minimax Estimation Under Weighted MSE," IEEE International Symposium on Information Theory, Jun., 2025. (ISIT 2025 Oral, Tsinghua B)
@@ -90,5 +90,5 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 
 # 👔 Academic Services
 
-- **Conference Reviewer:** ACL ARR'25,26, ICML'25,26, ICLR'25,26, NeurIPS'24,25, CVPR'26, EMNLP'23,24,25, ICASSP'23,24,25,26, ECAI'23,24, ICME'24,25,26
+- **Conference Reviewer:** ACL ARR'25,26, ICML'25,26, ICLR'25,26, NeurIPS'24,25,26, CVPR'26, EMNLP'23,24,25, ICASSP'23,24,25,26, ECAI'23,24, ICME'24,25,26
 - **Journal Reviewer:** TMLR, DMLR
