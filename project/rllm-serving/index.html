@@ -47,58 +47,13 @@
       box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15), 0 4px 10px rgba(0, 0, 0, 0.1);
       transform: translateY(-2px);
     }
-
-    .section-note {
-      font-size: 1.05rem;
-      color: #4a4a4a;
-      margin-bottom: 1rem;
-    }
-    .info-card, .insight-card {
-      background-color: #ffffff;
-      border-radius: 10px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.08);
-      padding: 22px;
-      height: 100%;
-    }
-    .info-card h3, .insight-card h3 {
-      margin-bottom: 0.75rem;
-      color: #363636;
-      font-size: 1.2rem;
-      font-weight: 600;
-    }
-    .info-card p, .insight-card p {
-      margin-bottom: 0;
-    }
-    .mini-kicker {
-      display: inline-block;
-      font-size: 0.82rem;
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      color: #0e419c;
-      margin-bottom: 0.65rem;
-    }
-    .figure-caption {
-      margin-top: 0.9rem;
-      color: #4a4a4a;
-    }
-    .figure-caption strong {
-      color: #363636;
-    }
-    .figure-placeholder {
-      width: 100%;
-      border-radius: 8px;
-      background: #fafafa;
-      border: 1px solid #e5e5e5;
-    }
-
   </style>
 
   <!--  -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="942384ca3e9b671c3bab5851-text/javascript"></script>
-  <script defer src="./static/js/fontawesome.all.min.js" type="942384ca3e9b671c3bab5851-text/javascript"></script>
-  <script src="./static/js/bulma-carousel.min.js" type="942384ca3e9b671c3bab5851-text/javascript"></script>
-  <script src="./static/js/bulma-slider.min.js" type="942384ca3e9b671c3bab5851-text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="211ab7ab065dd275357aaa6e-text/javascript"></script>
+  <script defer src="./static/js/fontawesome.all.min.js" type="211ab7ab065dd275357aaa6e-text/javascript"></script>
+  <script src="./static/js/bulma-carousel.min.js" type="211ab7ab065dd275357aaa6e-text/javascript"></script>
+  <script src="./static/js/bulma-slider.min.js" type="211ab7ab065dd275357aaa6e-text/javascript"></script>
   
 </head>
 <body>
@@ -136,10 +91,10 @@
               <a href="/">Yuhan Chen</a><sup style="color:#ed4b82">2</sup>,
             </span>
             <span class="author-block">
-              <a href="/">Shaohuai Shi</a><sup style="color:#ed4b82">5</sup>, <br>
+              <a href="/">Shaohuai Shi</a><sup style="color:#ed4b82">5</sup>,
             </span>
             <span class="author-block">
-              <a href="/">Zhenheng Tang</a><sup style="color:#0e419c">6</sup><sup style="color:#6fbf73">&dagger;</sup>
+              <a href="/">Zhenheng Tang</a><sup style="color:#0e419c">6</sup><sup style="color:#6fbf73">&dagger;</sup>,
             </span>
             <span class="author-block">
               <a href="/">Xiaowen Chu</a><sup style="color:#0e419c">2</sup><sup style="color:#6fbf73">&dagger;</sup>
@@ -204,7 +159,6 @@
 
 <section class="section">
   <div class="container" style="margin-bottom: 2vh;">
-    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
@@ -228,81 +182,31 @@
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
 </div>
 </section>
 
 <section class="section">
   <div class="section-title-bar-wrapper">
     <div class="container has-text-centered">
-      <h2 class="title is-2">Assessment Framework &amp; Experimental Setup</h2>
+      <h2 class="title is-2">Background</h2>
     </div>
   </div>
 </section>
 
 <section class="section">
-  <div class="container" style="margin-top: -120px; margin-bottom: -40px;">
-    <div class="columns is-centered has-text-centered" style="margin-bottom: 0px;">
-      <div class="column is-four-fifths">
-        <p class="section-note has-text-justified">
-          The paper studies whether reasoning LLMs introduce serving behaviors that existing LLM inference engines were not designed for.
-          To answer this question, the authors define the <strong>ASU</strong> framework and benchmark matched LLM/RLLM pairs with <strong>ASU-Perf</strong>
-          across multiple model scales, datasets, and open-source serving engines.
-        </p>
-      </div>
-    </div>
-
-    <div class="columns is-multiline is-centered m-6">
-      <div class="column is-4-desktop is-4-tablet">
-        <div class="info-card">
-          <div class="mini-kicker">ASU</div>
-          <h3>Accuracy</h3>
-          <p>Each optimization is evaluated against benchmark accuracy, so serving gains are always interpreted together with answer quality.</p>
-        </div>
-      </div>
-      <div class="column is-4-desktop is-4-tablet">
-        <div class="info-card">
-          <div class="mini-kicker">ASU</div>
-          <h3>Service-end</h3>
-          <p>The provider view focuses on throughput, especially tokens per second (TPS), to reflect system efficiency under load.</p>
-        </div>
-      </div>
-      <div class="column is-4-desktop is-4-tablet">
-        <div class="info-card">
-          <div class="mini-kicker">ASU</div>
-          <h3>User-end</h3>
-          <p>The user view tracks time to first visible token (TTFVT) and end-to-end running time, emphasizing perceived responsiveness.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="columns is-multiline is-centered m-6">
-      <div class="column is-3-desktop is-6-tablet">
-        <div class="info-card">
-          <div class="mini-kicker">Models</div>
-          <h3>Matched LLM / RLLM pairs</h3>
-          <p>The study compares Qwen-2.5-Math and Llama models with DeepSeek-R1-Distill counterparts at 7B, 14B, 32B, and 70B scales.</p>
-        </div>
-      </div>
-      <div class="column is-3-desktop is-6-tablet">
-        <div class="info-card">
-          <div class="mini-kicker">Datasets</div>
-          <h3>Math-heavy plus knowledge reasoning</h3>
-          <p>GSM8K, MATH-500, and AIME-2024 cover easy-to-hard math reasoning, while GPQA represents knowledge reasoning.</p>
-        </div>
-      </div>
-      <div class="column is-3-desktop is-6-tablet">
-        <div class="info-card">
-          <div class="mini-kicker">Engines</div>
-          <h3>vLLM and SGLang</h3>
-          <p>Both experiments and workload studies are carried out on two widely adopted open-source inference engines via OpenAI-compatible APIs.</p>
-        </div>
-      </div>
-      <div class="column is-3-desktop is-6-tablet">
-        <div class="info-card">
-          <div class="mini-kicker">Benchmark</div>
-          <h3>ASU-Perf</h3>
-          <p>The benchmark suite is used throughout the paper to compare serving traces, optimization results, and real-world workload behavior.</p>
+  <div class="container" style="margin-top: -150px; margin-bottom: -90px;">
+    <div class="columns is-centered m-6">
+      <div class="column is-full content">
+        <div class="result-card">
+          <p>
+            Large language models (LLM) such as GPT4 (Achiam et al., 2023), Claude4 (Anthropic, 2024; 2025), Gemini (Team et al., 2023), Llama (Grattafiori et al., 2024) have emerged as powerful knowledge bases via pre-training. These models, trained on vast Internet-crawled corpora such as C4 (Raffel et al., 2020), PILE (Gao et al., 2020), and guided by scaling law (Kaplan et al., 2020; Rae et al., 2021), have accumulated large-scale knowledge and exhibited remarkable performance on various knowledge-intensive tasks. Despite these advancements, LLMs are criticized for their unsatisfactory capabilities on complex reasoning tasks, e.g., challenging mathematics and programming tasks.
+          </p>
+          <p>
+            Recently, reasoning large language models (RLLM) like OpenAI o1 (Jaech et al., 2024), DeepSeek R1 (Guo et al., 2025), Qwen-3 (team, 2025) have sparked a growing body of research into test time scaling (Snell et al., 2025; Muennighoff et al., 2025) via long chain-of-thought reasoning (Wei et al., 2022), significantly improving their mathematical reasoning, coding tasks and knowledge reasoning capabilities, e.g., even a 1.5B open source RLLM can surpass giant cutting-edge LLMs like GPT-4o on math tasks (Guo et al., 2025). Such achievements make it possible to deploy a small to medium RLLM as a powerful assistant to light the burden of workload for the staff of small entities or even for person, democratizing the use of cutting-edge RLLMs. Hence, it is desirable for small entity with limited GPU resources to efficiently deploy RLLM with an inference engine privately for internal use.
+          </p>
+          <p>
+            RLLM and LLM. LLMs have demonstrated remarkable capabilities across various natural language processing tasks. However, standard LLMs often encounter difficulties when faced with complex problems that require multi-step reasoning, planning, and deeper cognitive processes, sometimes referred as “System-2 tasks” (Li et al., 2025d). To address these limitations, RLLMs have emerged, specifically engineered to enhance these deliberative reasoning abilities. A key technique employed by RLLMs is the “long Chain of Thought” (long CoT) prompting strategy (Shao et al., 2024). This approach encourages the model to generate extended, explicit step-by-step reasoning pathways, breaking down complex problems into more manageable parts. Unlike standard LLMs that might provide more direct or less detailed answers, RLLMs utilizing long CoT can better navigate the intricacies of tasks, leading to more accurate and justifiable solutions by methodically thinking through the problem.
+          </p>
         </div>
       </div>
     </div>
@@ -312,62 +216,127 @@
 <section class="section">
   <div class="section-title-bar-wrapper">
     <div class="container has-text-centered">
-      <h2 class="title is-2">Pilot Study: Serving LLM vs. RLLM</h2>
+      <h2 class="title is-2">Research Question</h2>
     </div>
   </div>
 </section>
 
 <section class="section">
-  <div class="container" style="margin-top: -120px; margin-bottom: -40px;">
-    <div class="columns is-centered has-text-centered" style="margin-bottom: 0px;">
-      <div class="column is-four-fifths">
-        <p class="section-note has-text-justified">
-          The pilot study compares matched 7B LLM and RLLM models under batch serving.
-          Its central visualization reveals why reasoning workloads stress inference systems differently from conventional LLM requests.
-        </p>
+  <div class="container" style="margin-top: -150px; margin-bottom: -90px;">
+    <div class="columns is-centered m-6">
+      <div class="column is-full content">
+        <div class="result-card has-text-centered">
+          <h3 class="subsection-title">Critical Research Question</h3>
+          <p><strong>Is there any distinct difference in serving behaviors between LLM and RLLM?</strong></p>
+          <p>
+            Nevertheless, current LLM serving engines, e.g., vLLM (Kwon et al., 2023), LMDeploy (Contributors, 2023), TensorRT-LLM (NVIDIA, 2023), are initially designed for traditional LLM, other than for RLLM. Though optimization techniques for LLM serving (§2) have been extensively studied, it remains largely unexplored whether RLLM exhibits distinct serving characteristics from LLM. If so, directly applying existing LLM serving techniques to RLLM may leave sub-optimal serving performance.
+          </p>
+          <p>
+            To answer the above question, we perform systematic studies of RLLM serving. We first establish the ASU assessment framework (§3.2) for assessing RLLM serving. To justify whether there exists a distinct difference in serving behavior between RLLM and LLM, we design a benchmark suite named ASU-Perf and conduct a pilot investigation with it on different-scale LLM and RLLM (§4).
+          </p>
+        </div>
       </div>
     </div>
+  </div>
+</section>
 
+<section class="section">
+  <div class="section-title-bar-wrapper">
+    <div class="container has-text-centered">
+      <h2 class="title is-2">ASU Assessment Framework &amp; Experimental Setup</h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="margin-top: -150px; margin-bottom: -80px;">
+    <div class="columns is-centered m-6">
+      <div class="column is-full content">
+        <div class="result-card">
+          <p>
+            The adoption of RLLM hinges on whether their are capable of generating value that outweighs their inference costs (Erol et al., 2025). Assessing this tradeoff requires metrics that account for both performance and serving costs for both service provider and users. For RLLM service providers and users, the performance metrics they care about differ: providers seek to maximize system throughput, while users expect rapid model responses. In addition, it is essential to ensure response accuracy while optimizing RLLM serving system performance as much as possible. Thus, we propose ASU (Accuracy, Service-end, User-end), a trinity framework for assessing RLLM serving performance by together considering response accuracy, RLLM service provider end and user end.
+          </p>
+          <div class="box">
+            <div class="columns is-centered has-text-centered">
+              <div class="column">
+                <h3 class="subsection-title">Accuracy</h3>
+                <p>For accuracy metric, we employ evaluation own metric for each dataset.</p>
+              </div>
+              <div class="column">
+                <h3 class="subsection-title">Service-end</h3>
+                <p>For service provider side metrics, we use throughput metric TPS (token per second).</p>
+              </div>
+              <div class="column">
+                <h3 class="subsection-title">User-end</h3>
+                <p>For user-side metrics, we use TTFVT (time to first visible token), a variant of TTFT, since we assume reasoning tokens of RLLM are invisible to users like commercial RLLM like OpenAI o1, and E2E requests running time as metrics.</p>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-centered has-text-centered" style="margin-top: 1.5rem;">
+            <div class="column">
+              <div class="box">
+                <h3 class="subsection-title">Language Models</h3>
+                <p>We employ 4 different scale models to assess their serving performance and serving behavior. General LLM: Qwen-2.5-Math 7B, Qwen-2.5-14B, Qwen-2.5-32B, and meta-llama/Llama-3.3-70B-Instruct and their long-cot tuned counterparts RLLM: DeepSeek-R1-Distill-Qwen-7B, DeepSeek-R1-Distill-Qwen-14B, DeepSeek-R1-Distill-Qwen-32B, and DeepSeek-R1-Distill-Llama-70B for fair comparison.</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box">
+                <h3 class="subsection-title">Evaluating Datasets</h3>
+                <p>We adopt three different difficulty level math reasoning datasets: GSM8K as easy level, MATH-500 as medium level, AIME-2024 as the hardest level. We also use GPQA for knowledge reasoning.</p>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-centered has-text-centered">
+            <div class="column">
+              <div class="box">
+                <h3 class="subsection-title">LLM Inference Engine</h3>
+                <p>We employ 2 most adopted open source LLM inference engines, vLLM and SGLang (Zheng et al., 2024) in evaluation. We use OpenAI compatible API of these engines.</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box">
+                <h3 class="subsection-title">Evaluation Suite</h3>
+                <p>We employ ASU-Perf, an benchmark suite proposed by us for evaluating LLM and RLLM serving performance with different inference engine. We leverage it in all of evaluation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title-bar-wrapper">
+    <div class="container has-text-centered">
+      <h2 class="title is-2">Pilot Investigation: Serving Performance and Behaviors</h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="margin-top: -150px; margin-bottom: -80px;">
     <div class="columns is-centered m-6">
       <div class="column is-full has-text-centered content">
         <div class="result-card">
-          <!-- Placeholder: insert paper Figure 2 here. Expected path: figures/figure2_pilot_study.png -->
-          <img src="figures/figure2_pilot_study.png" alt="Paper Figure 2" class="figure-placeholder" style="max-width: 100%;"/>
-          <p class="figure-caption has-text-left">
-            <strong>Suggested image:</strong> paper <strong>Figure 2</strong>.
-            This figure compares KV-cache usage, number of running requests, running time, and task performance for matched 7B LLM/RLLM pairs across GSM8K, MATH-500, AIME-2024, and GPQA.
+          <div class="box">
+            <p><strong>Placeholder:</strong> Insert <code>figures/figure2_serving_performance_and_behaviors.png</code> here.</p>
+          </div>
+          <p>
+            <strong>Figure 2:</strong> The serving performance and behavior comparison of a batch requests between 7B RLLM and LLM. We can read from this figure that (1) RLLM exhibits significant KV Cache fluctuations than LLM; (2) long tail distribution of requests running time caused by straggler requests; (3) adaptive running time of RLLM; (4) domain preference on math.
           </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="columns is-multiline is-centered m-6">
-      <div class="column is-3-desktop is-6-tablet">
-        <div class="insight-card">
-          <div class="mini-kicker">Finding 1</div>
-          <h3>Significant Memory Usage and Fluctuations</h3>
-          <p>RLLMs place much heavier pressure on KV cache than standard LLMs, and cache usage rises and falls sharply as long reasoning traces are created and then discarded.</p>
-        </div>
-      </div>
-      <div class="column is-3-desktop is-6-tablet">
-        <div class="insight-card">
-          <div class="mini-kicker">Finding 2</div>
-          <h3>Straggler Requests</h3>
-          <p>Hard requests linger far longer than easy ones, stretching batch completion time and leaving the engine with a long latency tail.</p>
-        </div>
-      </div>
-      <div class="column is-3-desktop is-6-tablet">
-        <div class="insight-card">
-          <div class="mini-kicker">Finding 3</div>
-          <h3>Adaptive Running Time</h3>
-          <p>For RLLMs, runtime varies strongly with task difficulty because harder problems trigger longer reasoning chains during decoding.</p>
-        </div>
-      </div>
-      <div class="column is-3-desktop is-6-tablet">
-        <div class="insight-card">
-          <div class="mini-kicker">Finding 4</div>
-          <h3>Domain Preference on Math</h3>
-          <p>The performance gap between RLLMs and LLMs is largest on mathematical reasoning tasks, while the two are much closer on GPQA-style knowledge reasoning.</p>
+          <p>
+            To investigate RLLM serving behaviors, we analyzed the running logs of the inference serving engine and conducted a visualization of the running traces, as shown in Figure 2. As illustrated, RLLMs achieve much higher accuracy on math datasets than same scale LLM, but a on-par performance on knowledge reasoning such as GPQA.
+          </p>
+          <p>
+            Main Findings for RLLM Serving Characteristics. Given the above results in pilot studies, we have the following findings in comparison of RLLM and LLM serving behaviors:
+          </p>
+          <ul style="text-align: left; display: inline-block;">
+            <li><strong>Significant Memory Usage and Fluctuations:</strong> We observed significant fluctuations in memory (reserved for KV cache) utilization of inference engine when serving RLLM. In extreme cases, the usage varied dramatically between 3% and 70%, whereas LLMs typically maintain KV cache usage below 3%.</li>
+            <li><strong>Straggler Requests:</strong> When requests arrive at the inference engine in batches, or an RLLM receives multiple requests simultaneously, significant disparities in request difficulty can lead to some requests taking much longer time to complete than others.</li>
+            <li><strong>Adaptive Running Time of RLLM:</strong> We found that, given the same number of samples with the same batch size (also the same token budget), the runtime of RLLMs varies significantly across different datasets and is strongly correlated with the difficulty of the tasks.</li>
+            <li><strong>Domain Preference:</strong> RLLMs and LLMs exhibit significant performance differences on the mathematical reasoning, while on-par on knowledge tasks, which align with existing works.</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -377,63 +346,61 @@
 <section class="section">
   <div class="section-title-bar-wrapper">
     <div class="container has-text-centered">
-      <h2 class="title is-2">Optimization Study: Existing Techniques under RLLM Serving</h2>
+      <h2 class="title is-2">Existing Optimization Techniques for RLLM Serving</h2>
     </div>
   </div>
 </section>
 
 <section class="section">
-  <div class="container" style="margin-top: -120px; margin-bottom: -40px;">
-    <div class="columns is-centered has-text-centered" style="margin-bottom: 0px;">
-      <div class="column is-four-fifths">
-        <p class="section-note has-text-justified">
-          Section 5 examines whether familiar LLM serving optimizations remain effective once requests become decode-heavy, memory-intensive, and highly variable in length.
-        </p>
+  <div class="container" style="margin-top: -150px; margin-bottom: -80px;">
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <div class="result-card">
+          <div class="box">
+            <p><strong>Placeholder:</strong> Insert a 2 &times; 2 panel as <code>figures/figure3_6_optimization_panel.png</code>, containing Figure 3, Figure 4, Figure 5, and Figure 6.</p>
+          </div>
+          <p><strong>Figure 3:</strong> Empirical results of current LLM quantization methods on 7B RLLM. current methods maintain or improve all serving-related metrics with less memory footprint while keep accuracy.</p>
+          <p><strong>Figure 4:</strong> Empirical results for KV cache quantization on 14B model across different datasets.</p>
+          <p><strong>Figure 5:</strong> Empirical results of comparison for enabling or disabling prefix caching on 32B RLLM.</p>
+          <p><strong>Figure 6:</strong> Empirical Results of comparison for enabling or disabling SD on 7B RLLM.</p>
+          <p>
+            We conduct extensive evaluations with various optimization techniques across diverse benchmarks. We find that the model quantization and speculative decoding integrated in the serving engine can improve serving efficiency and performance with only a small compromise on the accuracy of RLLM. KV cache quantization and Prefix caching generally improve throughput and efficiency across almost all evaluated models, with degradation observed only in a few specific cases.
+          </p>
+          <ul style="text-align: left; display: inline-block;">
+            <li><strong>Observation 5.1.</strong> MWQ methods exert differing impacts on various metrics of RLLM inference.</li>
+            <li><strong>Observation 5.2.</strong> KV Cache quantization can improve running efficiency for RLLM inference.</li>
+            <li><strong>Observation 5.3.</strong> PC can accelerate larger RLLMs inference without performance degradation.</li>
+            <li><strong>Observation 5.4.</strong> SD improves the running time of RLLMs and deteriorates metrics like TPS.</li>
+          </ul>
+        </div>
       </div>
     </div>
+  </div>
+</section>
 
-    <div class="columns is-multiline is-centered m-6">
-      <div class="column is-6-desktop">
+<section class="section">
+  <div class="section-title-bar-wrapper">
+    <div class="container has-text-centered">
+      <h2 class="title is-2">Applying to Real World Workload</h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="margin-top: -150px; margin-bottom: -80px;">
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
         <div class="result-card">
-          <!-- Placeholder: insert paper Figure 3 here. Expected path: figures/figure3_model_weight_quantization.png -->
-          <img src="figures/figure3_model_weight_quantization.png" alt="Paper Figure 3" class="figure-placeholder" style="max-width: 100%;"/>
-          <h3 class="subsection-title" style="margin-top: 1rem;">Model Weight Quantization</h3>
-          <p class="figure-caption has-text-left">
-            <strong>Suggested image:</strong> paper <strong>Figure 3</strong>.
-            GPTQ and FP8 largely preserve 7B RLLM accuracy while reducing memory footprint and keeping serving metrics competitive, whereas some alternatives keep accuracy but noticeably reduce efficiency on harder tasks.
+          <div class="box">
+            <p><strong>Placeholder:</strong> Insert a 1 &times; 2 panel as <code>figures/figure7_8_real_world_workload_panel.png</code>, containing Figure 7 and Figure 8.</p>
+          </div>
+          <p><strong>Figure 7:</strong> KV cache usage of 14B models under real-world workload across different datasets.</p>
+          <p><strong>Figure 8:</strong> Num of running requests in the inference engine for 14B models under real-world workload.</p>
+          <p>
+            Prior works (Wu et al., 2023; Li et al., 2023; Wang et al., 2025) have shown that, in real-world applications, the burstiness of requests received by the serving engine is typically modeled using the Gamma distribution. To validate our insights regarding RLLM serving in §4 under real-world scenarios, we implement a workload generator like BurstGPT-Perf (Wang et al., 2025) that is capable of producing requests following a Gamma distribution in our proposed Serve-Pref suite, enabling the generation of streaming, stochastic, and bursty workloads.
           </p>
-        </div>
-      </div>
-      <div class="column is-6-desktop">
-        <div class="result-card">
-          <!-- Placeholder: insert paper Figure 4 here. Expected path: figures/figure4_kv_cache_quantization.png -->
-          <img src="figures/figure4_kv_cache_quantization.png" alt="Paper Figure 4" class="figure-placeholder" style="max-width: 100%;"/>
-          <h3 class="subsection-title" style="margin-top: 1rem;">KV Cache Quantization</h3>
-          <p class="figure-caption has-text-left">
-            <strong>Suggested image:</strong> paper <strong>Figure 4</strong>.
-            For larger RLLMs, KV-cache quantization improves runtime efficiency and often helps TTFVT and TPS, but the paper notes that smaller 7B models can suffer severe degradation.
-          </p>
-        </div>
-      </div>
-      <div class="column is-6-desktop">
-        <div class="result-card">
-          <!-- Placeholder: insert paper Figure 5 here. Expected path: figures/figure5_prefix_caching.png -->
-          <img src="figures/figure5_prefix_caching.png" alt="Paper Figure 5" class="figure-placeholder" style="max-width: 100%;"/>
-          <h3 class="subsection-title" style="margin-top: 1rem;">Prefix Caching</h3>
-          <p class="figure-caption has-text-left">
-            <strong>Suggested image:</strong> paper <strong>Figure 5</strong>.
-            Prefix caching benefits sufficiently large models, especially 14B and above, but can introduce extra latency for smaller models when prefix reuse is limited.
-          </p>
-        </div>
-      </div>
-      <div class="column is-6-desktop">
-        <div class="result-card">
-          <!-- Placeholder: insert paper Figure 6 here. Expected path: figures/figure6_speculative_decoding.png -->
-          <img src="figures/figure6_speculative_decoding.png" alt="Paper Figure 6" class="figure-placeholder" style="max-width: 100%;"/>
-          <h3 class="subsection-title" style="margin-top: 1rem;">Speculative Decoding</h3>
-          <p class="figure-caption has-text-left">
-            <strong>Suggested image:</strong> paper <strong>Figure 6</strong>.
-            Speculative decoding shortens RLLM running time without hurting benchmark accuracy, but it also lowers throughput and worsens first-visible-token latency.
+          <p>
+            Main Results. As shown in Figure 7, the average KV cache usage rate of RLLM is much higher than LLM. More surprisingly, for RLLM, the utilization of the serving engine’s KV cache can remain close to 100% for long periods, forcing some new requests to wait in the waiting queue before running. The running requests in the engine are also much higher when serving RLLM compared to LLM, as shown in Figure 8. The above phenomena hold consistently across different datasets, demonstrating the generalizability of our findings.
           </p>
         </div>
       </div>
@@ -444,85 +411,25 @@
 <section class="section">
   <div class="section-title-bar-wrapper">
     <div class="container has-text-centered">
-      <h2 class="title is-2">Validation under Real-world Workloads</h2>
+      <h2 class="title is-2">Insights for RLLM Serving</h2>
     </div>
   </div>
 </section>
 
 <section class="section">
-  <div class="container" style="margin-top: -120px; margin-bottom: -40px;">
-    <div class="columns is-centered has-text-centered" style="margin-bottom: 0px;">
-      <div class="column is-four-fifths">
-        <p class="section-note has-text-justified">
-          The paper then replaces synchronized batches with bursty workloads modeled by a Gamma distribution, verifying whether the pilot-study behaviors still appear when requests arrive continuously.
-        </p>
-      </div>
-    </div>
-
-    <div class="columns is-multiline is-centered m-6">
-      <div class="column is-6-desktop">
+  <div class="container" style="margin-top: -150px; margin-bottom: -80px;">
+    <div class="columns is-centered m-6">
+      <div class="column is-full content">
         <div class="result-card">
-          <!-- Placeholder: insert paper Figure 7 here. Expected path: figures/figure7_realworld_kv_usage.png -->
-          <img src="figures/figure7_realworld_kv_usage.png" alt="Paper Figure 7" class="figure-placeholder" style="max-width: 100%;"/>
-          <h3 class="subsection-title" style="margin-top: 1rem;">KV Cache Saturation Persists</h3>
-          <p class="figure-caption has-text-left">
-            <strong>Suggested image:</strong> paper <strong>Figure 7</strong>.
-            Under real-world workloads, RLLM KV-cache utilization stays much higher than LLM and can remain close to saturation for long periods, forcing new requests to wait.
+          <p>
+            Insights for RLLM Serving. Building on our empirical observations, we identify several actionable directions for optimizing future RLLM-oriented inference systems.
           </p>
-        </div>
-      </div>
-      <div class="column is-6-desktop">
-        <div class="result-card">
-          <!-- Placeholder: insert paper Figure 8 here. Expected path: figures/figure8_realworld_running_requests.png -->
-          <img src="figures/figure8_realworld_running_requests.png" alt="Paper Figure 8" class="figure-placeholder" style="max-width: 100%;"/>
-          <h3 class="subsection-title" style="margin-top: 1rem;">More Running Requests Accumulate</h3>
-          <p class="figure-caption has-text-left">
-            <strong>Suggested image:</strong> paper <strong>Figure 8</strong>.
-            The engine keeps more RLLM requests active than LLM requests, showing that stragglers and queueing effects remain prominent beyond the simplified batch setting.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-title-bar-wrapper">
-    <div class="container has-text-centered">
-      <h2 class="title is-2">Implications for Future RLLM Systems</h2>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container" style="margin-top: -120px; margin-bottom: -40px;">
-    <div class="columns is-multiline is-centered m-6">
-      <div class="column is-3-desktop is-6-tablet">
-        <div class="insight-card">
-          <div class="mini-kicker">Direction 1</div>
-          <h3>Finer-grained memory management</h3>
-          <p>Long and volatile reasoning traces call for better cache lifetime control, re-prefill / reload policies, and more adaptive KV management during decoding.</p>
-        </div>
-      </div>
-      <div class="column is-3-desktop is-6-tablet">
-        <div class="insight-card">
-          <div class="mini-kicker">Direction 2</div>
-          <h3>Difficulty-aware scheduling</h3>
-          <p>Because hard queries dominate tail latency, future systems should prioritize, reorder, or schedule requests dynamically according to estimated reasoning difficulty.</p>
-        </div>
-      </div>
-      <div class="column is-3-desktop is-6-tablet">
-        <div class="insight-card">
-          <div class="mini-kicker">Direction 3</div>
-          <h3>Asymmetric prefill / decode allocation</h3>
-          <p>RLLMs are more decode-heavy than standard LLMs, so resource allocation should emphasize decode workers rather than treating prefill and decode symmetrically.</p>
-        </div>
-      </div>
-      <div class="column is-3-desktop is-6-tablet">
-        <div class="insight-card">
-          <div class="mini-kicker">Direction 4</div>
-          <h3>Hardware-software co-design</h3>
-          <p>Longer generations increase bandwidth demand and KV-access intensity, motivating accelerators and runtimes that are explicitly tuned for RLLM decoding behavior.</p>
+          <ul>
+            <li>RLLMs exhibit higher and more volatile memory usage due to their long chains of thought, calling for finer-grained memory. This includes more adaptive re-prefill or KV reload mechanisms, improved cache lifetime management to smooth CoT boundary fluctuations, and selective KV swapping or offloading to ease memory pressure during decoding.</li>
+            <li>Large variations in reasoning length lead to strong straggler effects within batches, where hard queries dominate completion time and reduce tail utilization. To address this, systems should adopt difficulty-aware or runtime-adaptive scheduling that dynamically prioritizes or reorders requests.</li>
+            <li>Compared to standard LLMs, RLLMs are significantly more decode-heavy, with runtime determined more by task difficulty than input length. Systems should therefore employ asymmetric prefill-decode resource allocation, dedicating more resources to decode workers, adapting existing PD-disaggregation frameworks to RLLM workloads, and designing allocation policies that explicitly account for task-dependent decoding variance.</li>
+            <li>RLLMs generate much longer sequences, increasing bandwidth demand and KV-access intensity. This creates opportunities for hardware-software co-design, including KV-access-optimized accelerators, runtime systems that exploit memory hierarchies more effectively, and architectural refinements to reduce decode-phase latency.</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -546,43 +453,20 @@
   </div>
 </section>
 
-<!-- <section>
-  <div class="section" id="org-banners" style="display:flex">
-    <a href="https://www.yale.edu/" target="_blank" rel="external">
-        <img class="center-block org-banner" src="static/images/yale.png">
-    </a>
-    <a href="https://www.nyu.edu/" target="blank" rel="external">
-        <img class="center-block org-banner" src="static/images/nyu.png">
-    </a>
-    <a href="https://shanghai.nyu.edu/" target="_blank" rel="external">
-        <img class="center-block org-banner" src="static/images/nyush.png">
-    </a>
-    <a href="https://www.psu.edu/" target="_blank" rel="external">
-      <img class="center-block org-banner" src="static/images/psu.png">
-    </a>
-    <a href="https://allenai.org/" target="_blank" rel="external">
-      <img class="center-block org-banner" src="static/images/ai2.png">
-    </a>
-  </div>
-</section> -->
-
-
 <footer class="footer">
-  <!-- <div class="container"> -->
-    <div class="content has-text-centered">
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            This website is adapted from <a href="https://mathvista.github.io/">MathVista</a>, licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-        </div>
+  <div class="content has-text-centered">
+  </div>
+  <div class="columns is-centered">
+    <div class="column is-8">
+      <div class="content">
+        <p>
+          This website is adapted from <a href="https://mathvista.github.io/">MathVista</a>, licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+        </p>
       </div>
     </div>
-  <!-- </div> -->
+  </div>
 </footer>
 
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="942384ca3e9b671c3bab5851-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"c96235924acb4b338a3e709648760d42","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="211ab7ab065dd275357aaa6e-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"c96235924acb4b338a3e709648760d42","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
