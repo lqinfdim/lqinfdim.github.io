@@ -433,11 +433,25 @@
   <div class="container" style="margin-top: -150px; margin-bottom: -80px;">
     <div class="columns is-centered m-6">
       <div class="column is-full has-text-centered content">
-        <div class="result-card">
-          <div class="box">
-            <p><strong>Placeholder:</strong> Insert a 1 &times; 2 panel as <code>figures/figure7_8_real_world_workload_panel.png</code>, containing Figure 7 and Figure 8.</p>
+        <div class="box">
+            <figure style="margin: 0 0 1rem 0;">
+              <img
+                src="figures/14b_kv_cache.png"
+                alt="Figure 7: KV cache usage of 14B models under real-world workload across different datasets."
+                style="max-width: 100%; height: auto; display: block;"
+              >
+            </figure>
           </div>
           <p><strong>Figure 7:</strong> KV cache usage of 14B models under real-world workload across different datasets.</p>
+          <div class="box">
+            <figure style="margin: 0 0 1rem 0;">
+              <img
+                src="figures/14b_requests.png"
+                alt="Figure 8: Empirical Results of comparison for enabling or disabling SD on 7B RLLM."
+                style="max-width: 100%; height: auto; display: block;"
+              >
+            </figure>
+          </div>
           <p><strong>Figure 8:</strong> Num of running requests in the inference engine for 14B models under real-world workload.</p>
           <p>
             Prior works (Wu et al., 2023; Li et al., 2023; Wang et al., 2025) have shown that, in real-world applications, the burstiness of requests received by the serving engine is typically modeled using the Gamma distribution. To validate our insights regarding RLLM serving in §4 under real-world scenarios, we implement a workload generator like BurstGPT-Perf (Wang et al., 2025) that is capable of producing requests following a Gamma distribution in our proposed Serve-Pref suite, enabling the generation of streaming, stochastic, and bursty workloads.
