@@ -363,7 +363,13 @@
       <div class="column is-full has-text-centered content">
         <div class="result-card">
           <div class="box">
-            <p><strong>Placeholder:</strong> Insert a 2 &times; 2 panel as <code>figures/figure3_6_optimization_panel.png</code>, containing Figure 3, Figure 4, Figure 5, and Figure 6.</p>
+            <figure style="margin: 0 0 1rem 0;">
+              <img
+                src="figures/model_weight_gsm8k.png"
+                alt="Figure 3: The serving performance and behavior comparison of batch requests between 7B RLLM and LLM"
+                style="max-width: 100%; height: auto; display: block;"
+              >
+            </figure>
           </div>
           <p><strong>Figure 3:</strong> Empirical results of current LLM quantization methods on 7B RLLM. current methods maintain or improve all serving-related metrics with less memory footprint while keep accuracy.</p>
           <p><strong>Figure 4:</strong> Empirical results for KV cache quantization on 14B model across different datasets.</p>
