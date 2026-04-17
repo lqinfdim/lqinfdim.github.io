@@ -360,20 +360,51 @@
 <section class="section">
   <div class="container" style="margin-top: -150px; margin-bottom: -80px;">
     <div class="columns is-centered m-6">
-      <div class="column is-full has-text-centered content">
+      <div class="column is-full has-text-left content">
         <div class="result-card">
           <div class="box">
             <figure style="margin: 0 0 1rem 0;">
               <img
                 src="figures/model_weight_gsm8k.png"
-                alt="Figure 3: The serving performance and behavior comparison of batch requests between 7B RLLM and LLM"
+                alt="Figure 3: Empirical results of current LLM quantization methods on 7B RLLM."
                 style="max-width: 100%; height: auto; display: block;"
               >
             </figure>
           </div>
+          
           <p><strong>Figure 3:</strong> Empirical results of current LLM quantization methods on 7B RLLM. current methods maintain or improve all serving-related metrics with less memory footprint while keep accuracy.</p>
+          <div class="box">
+            <figure style="margin: 0 0 1rem 0;">
+              <img
+                src="figures/kv_cache.png"
+                alt="Figure 4: Empirical results for KV cache quantization on 14B model"
+                style="max-width: 100%; height: auto; display: block;"
+              >
+            </figure>
+          </div>
           <p><strong>Figure 4:</strong> Empirical results for KV cache quantization on 14B model across different datasets.</p>
+          
+          <div class="box">
+            <figure style="margin: 0 0 1rem 0;">
+              <img
+                src="figures/prefix.png"
+                alt="Figure 5: Empirical results of comparison for enabling or disabling prefix caching on 32B RLLM."
+                style="max-width: 100%; height: auto; display: block;"
+              >
+            </figure>
+          </div>
           <p><strong>Figure 5:</strong> Empirical results of comparison for enabling or disabling prefix caching on 32B RLLM.</p>
+
+          
+          <div class="box">
+            <figure style="margin: 0 0 1rem 0;">
+              <img
+                src="figures/sd.png"
+                alt="Figure 6: Empirical Results of comparison for enabling or disabling SD on 7B RLLM."
+                style="max-width: 100%; height: auto; display: block;"
+              >
+            </figure>
+          </div>
           <p><strong>Figure 6:</strong> Empirical Results of comparison for enabling or disabling SD on 7B RLLM.</p>
           <p>
             We conduct extensive evaluations with various optimization techniques across diverse benchmarks. We find that the model quantization and speculative decoding integrated in the serving engine can improve serving efficiency and performance with only a small compromise on the accuracy of RLLM. KV cache quantization and Prefix caching generally improve throughput and efficiency across almost all evaluated models, with degradation observed only in a few specific cases.
