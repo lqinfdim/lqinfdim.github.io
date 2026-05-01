@@ -33,7 +33,7 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 <span class='anchor' id='news'></span>
 # 🔥 News 
 
-
+- *2026.05*: &nbsp;🎉🎉 One paper is accepted by ICML 2026.
 - *2026.01*: &nbsp;🎉🎉 One paper is accepted by ICLR 2026.
 - *2025.09*: &nbsp;🎉🎉 One paper is accepted by NeurIPS 2025. 
 - *2025.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2025. 
@@ -55,7 +55,7 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 # 📝 Selected Publications 
 
 
-
+- Zhang Q, Chu C, Peng T, et al. LoRA-DA: Data-Aware Initialization for Low-Rank Adaptation via Asymptotic Analysis. Forty-third International Conference on Machine Learning (ICML 2026, CCF-A).
 - Li Q, Wu J, Liu X, et al. Reasoning language model inference serving unveiled: An empirical study. Long Paper of The Fourteenth International Conference on Learning Representations (ICLR 2026, CCF-A). 
 - Li Q. et.al. AdaEdit: Advancing Continuous Knowledge Editing For Large Language Models. Long paper of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025, CCF-A).
 - Qingyue Zhang, Haohao Fu, Guanbo Huang, Yaoyuan Liang, Chang Chu, Tianren Peng, Yanru Wu, Qi Li, Yang Li, Shao-Lun Huang. A High-Dimensional Statistical Method for Optimizing Transfer Quantities in Multi-Source Transfer Learning. Main Track Paper of the Thirty-nith Annual Conference on Neural Information Processing Systems (NeurIPS 2025, CCF-A).
