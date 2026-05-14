@@ -90,5 +90,5 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 
 # 👔 Academic Services
 
-- **Conference Reviewer:** ACL ARR'25,26, ICML'25,26, ICLR'25,26, NeurIPS'24,25,26, CVPR'26, EMNLP'23,24,25, ICASSP'23,24,25,26, ECAI'23,24, ICME'24,25,26
-- **Journal Reviewer:** TMLR, DMLR
+- **Invited Conference Reviewer:** ACL ARR'25,26, ICML'25,26, ICLR'25,26, NeurIPS'24,25,26, CVPR'26, EMNLP'23,24,25, ICASSP'23,24,25,26, ECAI'23,24, ICME'24,25,26
+- **Invited Journal Reviewer:** TMLR, DMLR, IEEE Transactions on Network Science and Engineering
