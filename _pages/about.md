@@ -21,8 +21,8 @@ Hi there! I'm Qi Li, a CS PhD student at Tsinghua University, and I also serve a
 
 My current research interests focus on:
 - Efficient algorithm for LLM: PEFT, Knowledge Editing
-- Post-training of LLM
-- Machine learning systems for LLM
+- Post-training of LLM: On-policy Distillation, Synthetic Data
+- Machine learning systems for LLM: Efficient Inference Serving System, RL Training System
 - Understanding LLM from both theoretical and empirical perspectives
 
 I'm open to collaboration and discussion. Feel free to reach out via email!
@@ -90,5 +90,5 @@ I'm open to collaboration and discussion. Feel free to reach out via email!
 
 # 👔 Academic Services
 
-- **Invited Conference Reviewer:** ACL ARR'25,26, ICML'25,26, ICLR'25,26, NeurIPS'24,25,26, CVPR'26, EMNLP'23,24,25, ICASSP'23,24,25,26, ECAI'23,24, ICME'24,25,26
+- **Invited Conference Reviewer:** ACL ARR'25,26, ICML'25,26, ICLR'25,26, NeurIPS'24,25,26, AAAI'27, CVPR'26, EMNLP'23,24,25, ICASSP'23,24,25,26, ECAI'23,24, ICME'24,25,26
 - **Invited Journal Reviewer:** TMLR, DMLR, IEEE Transactions on Network Science and Engineering
