@@ -17,12 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there! I'm Qi Li, a CS PhD student at Tsinghua University, and I also serve as a visiting student at HKUST-GZ. I received my Master's degree from Tsinghua University, and my Bachelor's degree in computer science from Lanzhou University.
+Hi there! I'm Qi Li, a CS PhD student at Tsinghua University. Previously, I serve as a visiting student at HKUST-GZ. I received my Master's degree from Tsinghua University, and my Bachelor's degree in computer science from Lanzhou University.
 
 My current research interests focus on:
 - Efficient algorithm for LLM: PEFT, Knowledge Editing
 - Post-training of LLM: On-policy Distillation, Synthetic Data
-- Machine learning systems for LLM: Efficient Inference Serving System, RL Training System
+- Machine learning systems for LLM: Efficient Inference Serving System, Post-training System
 - Understanding LLM from both theoretical and empirical perspectives
 
 I'm open to collaboration and discussion. Feel free to reach out via email!
